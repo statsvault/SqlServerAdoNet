@@ -2,6 +2,7 @@
 
 namespace StatKings.SqlServerAdoNet
 {
+    [Serializable]
     public class ModelDefinitionException : Exception
     {
         public ModelDefinitionException() : base() { }

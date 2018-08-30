@@ -13,6 +13,9 @@ namespace StatKings.SqlServerAdoNet.IntegrationTests
         /// </summary>
         public static void CreateDatabase()
         {
+            // Start the LocalDB instance.
+            RunProcess("SqlLocalDB.exe", "start");
+
             // Get the one-time setup script and update it to point to the database directory.
             var databaseDirectory = Helper.GetDatabaseDirectory();
             var scriptPath = Path.Combine(databaseDirectory, "SqlServerOneTimeSetup.sql");
@@ -37,6 +40,9 @@ namespace StatKings.SqlServerAdoNet.IntegrationTests
             // Delete the temp script file.
             var tempScriptPath = Path.Combine(databaseDirectory, _onetimeSetupScriptTemp);
             File.Delete(tempScriptPath);
+
+            // Stop the LocalDB instance.
+            RunProcess("SqlLocalDB.exe", "stop");
         }
 
         /// <summary>

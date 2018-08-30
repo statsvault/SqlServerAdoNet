@@ -2,6 +2,7 @@
 
 namespace StatKings.SqlServerAdoNet
 {
+    [Serializable]
     public class SqlBuilderException : Exception
     {
         public SqlBuilderException() : base() { }

@@ -2,6 +2,7 @@
 
 namespace StatKings.SqlServerAdoNet
 {
+    [Serializable]
     public class CommandSettingsException : Exception
     {
         public CommandSettingsException() : base() { }

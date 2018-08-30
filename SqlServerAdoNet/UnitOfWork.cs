@@ -4,7 +4,7 @@ using System.Data.Common;
 
 namespace StatKings.SqlServerAdoNet
 {
-    public class UnitOfWork : IUnitOfWork
+    public sealed class UnitOfWork : IUnitOfWork
     {
         /// <summary>
         /// Static factory for creating a unit of work instance.
