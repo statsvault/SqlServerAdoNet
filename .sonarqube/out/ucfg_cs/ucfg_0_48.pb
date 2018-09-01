@@ -1,32 +1,28 @@
 
-?StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeCommandSettings()N
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs| Ü("0*
-0*
+>StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeUpdateSettings()O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÆ æ("0*
+0*
 1
-2
-3
-4
-5*^
-4"Y
+2*≥
+1®
 O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÉ' É(B
-""*^
-3"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÇ' Ç(B
-""*^
-2"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÅ' Å(B
-""*^
-1"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÄ' Ä(B
-""*≥
-5®
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÖ Ö(H%0IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)"
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs≥ ≥(e%0IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)"
 ""*
-6*
-6"
+3*˜
+2§
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csº' Ω(M%0-string.Format(string, object, object, object)"
+"""
+"""
+"""
+""Ô
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csº Ω(T%1áStatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
+
+%0"
+"""Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csº Ω(U
+""*
+3"
 ""

@@ -1,33 +1,43 @@
 
-FStatKings.SqlServerAdoNet.ReflectionHelper.GetPropertyColumnNames<T>()R
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs} ‰("0*
+CStatKings.SqlServerAdoNet.SqlRunner.Map<T>(System.Data.IDataRecord)D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs  ¸(record"0*
 0*
 1*
 1*
 2
-3*‹
-2ý
-S
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs„ „(R%0‘StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(System.Reflection.PropertyInfo, System.Func<TAttribute, TValue>)"
-"""
-""*
+3*Ý
+2x
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¨! ¨(1%0$System.Data.IDataRecord.GetName(int)"
+""`
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¨ ¨(1
+recordName__id"
+
+%0Z
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs© ©(Lname__id"
+""—
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¬ ¬(?%1AStatKings.SqlServerAdoNet.ReflectionHelper.GetProperty<T>(string)"
+
+name*
 4
 5*
 4*
-5*®
-5l
-S
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs„ „(_colName__id"
-""µ
-S
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs… …(/%0ESystem.Collections.Generic.Dictionary<TKey, TValue>.Add(TKey, TValue)"
-"""
-	
-colName*
-1*b
-3"]
-S
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csˆ ˆ(
+6*
+5*
+7
+8*
+7*
+6*
+8*
+6*
+6*
+1*S
+3"N
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs· ·(
 ""*
-6"
+9"
 ""

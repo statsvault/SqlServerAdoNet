@@ -1,43 +1,15 @@
 
->StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeInsertSettings()O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÄ Õ("0*
-0*
-1
-2*—
-1œ
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÐ5 Ð(T%0=StatKings.SqlServerAdoNet.QueryBuilder<T>.AddBrackets(string)"
-""¥
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ+ Ð(i%1&string.Format(string, params object[])"
-"""
-"""
-"""
+?StatKings.SqlServerAdoNet.QueryHelper.MakeParameterName(string)L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csy |(	paramName"0*Ð
+0s
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs{ {(!%0__concat"
+
+	paramName"
+"""V
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs{ {("
 
-%0"
-""ï
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ð(|%2‡StatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
-
-%1"
-"""Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ð(}
-""*÷
-2¤
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÓ' Ô(C%0-string.Format(string, object, object, object)"
-"""
-"""
-"""
-""ï
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÓ Ô(V%1‡StatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
-
-%0"
-"""Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÓ Ô(W
-""*
-3"
+%0*
+1"
 ""

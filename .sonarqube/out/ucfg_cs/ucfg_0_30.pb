@@ -1,9 +1,9 @@
 
-;StatKings.SqlServerAdoNet.SqlRunner.Get<T>(params object[])C
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs{ €(primaryKeyValues"0*Q
-0"L
-B
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs (G
+/StatKings.SqlServerAdoNet.SqlRunner.GetAll<T>()D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs‡ ‹("0*S
+0"N
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csŠ Š(B
 ""*
 1"
 ""

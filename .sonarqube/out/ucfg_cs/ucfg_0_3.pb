@@ -1,5 +1,5 @@
 
-CStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException()W
-MC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\SqlBuilderException.cs	 	(0"0*
+ªStatKings.SqlServerAdoNet.CommandSettingsException.CommandSettingsException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)\
+RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException.cs ($infocontext"0*
 0"
 ""

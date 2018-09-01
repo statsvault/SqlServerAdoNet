@@ -1,15 +1,9 @@
 
-?StatKings.SqlServerAdoNet.QueryHelper.MakeParameterName(string)L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csy |(	paramName"0*Ð
-0s
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs{ {(!%0__concat"
-
-	paramName"
-"""V
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs{ {("
-
-%0*
+‘StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(System.Reflection.PropertyInfo, System.Func<TAttribute, TValue>)Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs$ ((propvalueSelector"0*`
+0"[
+Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs' '(9
+""*
 1"
 ""

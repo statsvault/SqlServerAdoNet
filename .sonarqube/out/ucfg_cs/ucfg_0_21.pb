@@ -1,29 +1,63 @@
 
-/StatKings.SqlServerAdoNet.UnitOfWork.Rollback()C
-9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.csj {("0*
-0*
+7StatKings.SqlServerAdoNet.ModelHelper.GetTableName<T>()L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs -("0*Õ
+0b
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs (name__id"
+""d
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs (schema__id"
+""*
 1
-2*¡
-1–
-D
-9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.csn n(ƒ%0BSystem.InvalidOperationException.InvalidOperationException(string)"
-""*
-3*
-2*	
-4
-5
-3*
-5*	
-4
-6
-3*»
-4°
-D
-9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.csw w(°%0TSystem.InvalidOperationException.InvalidOperationException(string, System.Exception)"
+2*Ÿ
+2â
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs (J%0~StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(System.Type, System.Func<TAttribute, TValue>)"
 """
-""*
-3*
-6*
-3*
-3"
+""b
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs (Jname__id"
+
+%0â
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs (N%1~StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(System.Type, System.Func<TAttribute, TValue>)"
+"""
+""d
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs (Nschema__id"
+
+%1*
+1
+1*Œ
+1
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs' '(.%0!string.IsNullOrWhiteSpace(string)"
+
+name*
+3
+4*—
+3¨
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs) )(4%0DStatKings.SqlServerAdoNet.CommonHelper.RemoveFromEnd(string, string)"
+"""
+""b
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs) )(4name__id"
+
+%0*
+4*ù
+4Š
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs,# ,(-%0,StatKings.SqlServerAdoNet.TableName.Name.set"
+
+nameŽ
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs,0 ,(>%1.StatKings.SqlServerAdoNet.TableName.Schema.set"
+
+
+schema"V
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs, ,(A
+""*
+5"
 ""

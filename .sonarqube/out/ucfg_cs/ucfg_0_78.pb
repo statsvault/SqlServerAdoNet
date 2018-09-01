@@ -1,16 +1,35 @@
 
-IStatKings.SqlServerAdoNet.SqlRunner.MapToList<T>(System.Data.IDataReader)D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csè ò(reader"0*
-0*
-1*
-1*
-2
-3*
-2*
-1*S
-3"N
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csó ó(
+IStatKings.SqlServerAdoNet.QueryBuilder<T>.FormatTableName(string, string)O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs∆ –(nameschema"0*í
+0Ñ
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs» »(0%0!string.IsNullOrWhiteSpace(string)"
+
+
+schema*
+1
+2*ˇ
+1û
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs   ('%0=StatKings.SqlServerAdoNet.QueryBuilder<T>.AddBrackets(string)"
+
+name"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs   ((
+
+%0*¢
+2†
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csŒ Œ(,%0=StatKings.SqlServerAdoNet.QueryBuilder<T>.AddBrackets(string)"
+
+
+schemaû
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csŒ0 Œ(@%1=StatKings.SqlServerAdoNet.QueryBuilder<T>.AddBrackets(string)"
+
+name"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csŒ Œ(C
 ""*
-4"
+3"
 ""

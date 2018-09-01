@@ -21,7 +21,7 @@
 }		 
 }
 
- »
+ ø
 RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException.cs
 	namespace 	
 	StatKings
@@ -61,31 +61,27 @@ RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException
 message? F
 )F G
 {H I
-}J K
-private $
-CommandSettingsException (
-(( )
-SerializationInfo) :
-info; ?
-,? @
-StreamingContextA Q
-contextR Y
-)Y Z
-: 	
-base
- 
-( 
-info 
-, 
-context 
-) 
-{ 	
-}
- 
-public 
-override 
-void 
-GetObjectData *
+}J K
+public $
+CommandSettingsException '
+(' (
+string( .
+message/ 6
+,6 7
+	Exception8 A
+innerExceptionB P
+)P Q
+: 
+base 
+( 
+message 
+, 
+innerException *
+)* +
+{, -
+}. /
+	protected $
+CommandSettingsException *
 (* +
 SerializationInfo+ <
 info= A
@@ -93,19 +89,17 @@ RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException
 StreamingContextC S
 contextT [
 )[ \
-{ 	
-base 
-. 
-GetObjectData 
-( 
-info #
-,# $
-context% ,
-), -
-;- .
-} 	
-} 
-} »
+: 
+base 
+( 
+info 
+, 
+context  
+)  !
+{" #
+}$ %
+} 
+} ø
 RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException.cs
 	namespace 	
 	StatKings
@@ -145,31 +139,27 @@ RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException
 message? F
 )F G
 {H I
-}J K
-private $
-ModelDefinitionException (
-(( )
-SerializationInfo) :
-info; ?
-,? @
-StreamingContextA Q
-contextR Y
-)Y Z
-: 	
-base
- 
-( 
-info 
-, 
-context 
-) 
-{ 	
-}
- 
-public 
-override 
-void 
-GetObjectData *
+}J K
+public $
+ModelDefinitionException '
+(' (
+string( .
+message/ 6
+,6 7
+	Exception8 A
+innerExceptionB P
+)P Q
+: 
+base 
+( 
+message 
+, 
+innerException *
+)* +
+{, -
+}. /
+	protected $
+ModelDefinitionException *
 (* +
 SerializationInfo+ <
 info= A
@@ -177,19 +167,17 @@ RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException
 StreamingContextC S
 contextT [
 )[ \
-{ 	
-base 
-. 
-GetObjectData 
-( 
-info #
-,# $
-context% ,
-), -
-;- .
-} 	
-} 
-} ¢
+: 
+base 
+( 
+info 
+, 
+context  
+)  !
+{" #
+}$ %
+} 
+} Ú
 MC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\SqlBuilderException.cs
 	namespace 	
 	StatKings
@@ -229,51 +217,45 @@ MC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\SqlBuilderException.cs
 message: A
 )A B
 {C D
-}E F
-private 
-SqlBuilderException #
-(# $
-SerializationInfo$ 5
-info6 :
-,: ;
-StreamingContext< L
-contextM T
-)T U
-: 	
-base
- 
-( 
-info 
-, 
-context 
-) 
-{ 	
-}
- 
-public 
-override 
-void 
-GetObjectData *
-(* +
-SerializationInfo+ <
-info= A
-,A B
-StreamingContextC S
-contextT [
-)[ \
-{ 	
-base 
-. 
-GetObjectData 
-( 
-info #
-,# $
-context% ,
-), -
-;- .
-} 	
-} 
-} ƒ
+}E F
+public 
+SqlBuilderException "
+(" #
+string# )
+message* 1
+,1 2
+	Exception3 <
+innerException= K
+)K L
+: 
+base 
+( 
+message 
+, 
+innerException *
+)* +
+{, -
+}. /
+	protected 
+SqlBuilderException %
+(% &
+SerializationInfo& 7
+info8 <
+,< =
+StreamingContext> N
+contextO V
+)V W
+: 
+base 
+( 
+info 
+, 
+context  
+)  !
+{" #
+}$ %
+} 
+} ƒ
 CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\CommonHelper.cs
 	namespace 	
 	StatKings
@@ -1019,7 +1001,7 @@ IsIdentityvv< F
 ‘‘ 	
 }
 ’’ 
-}““ ÁÓ
+}““ ÊÓ
 CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs
 	namespace 	
 	StatKings
@@ -1252,13 +1234,14 @@ _queryType332 <
 )??U V
 ;??V W
 ifBB 
-(BB 
-primaryKeyColumnsBB !
-.BB! "
-CountBB" '
-==BB( *
-$numBB+ ,
-)BB, -
+(BB 
+!BB 
+primaryKeyColumnsBB "
+.BB" #
+AnyBB# &
+(BB& '
+)BB' (
+)BB( )
 {CC 
 throwDD 
 newDD $
@@ -1393,15 +1376,13 @@ _queryType]] 
 throwee 
 newee !
 ArgumentNullExceptionee /
-(ee/ 0
-$stree0 Y
-,eeY Z
-nameofee[ a
-(eea b
-entityInstanceeeb p
-)eep q
-)eeq r
-;eer s
+(ee/ 0
+nameofee0 6
+(ee6 7
+entityInstanceee7 E
+)eeE F
+)eeF G
+;eeG H
 }ff !
 _entityPropertyValuesii !
 =ii" #
@@ -1659,19 +1640,21 @@ _queryType~~ 
 if
 ’’ 
 (
-’’ 
+’’ 
+!
+’’ 
 _primaryKeyValues
-’’ !
+’’ "
 .
-’’! "
-Count
-’’" '
-==
-’’( *
-$num
-’’+ ,
+’’" #
+Any
+’’# &
+(
+’’& '
 )
-’’, -
+’’' (
+)
+’’( )
 {
 ““ 
 return
@@ -1776,19 +1759,21 @@ Parameters
 if
 ¢¢ 
 (
-¢¢ 
+¢¢ 
+!
+¢¢ 
 _primaryKeyValues
-¢¢ !
+¢¢ "
 .
-¢¢! "
-Count
-¢¢" '
-==
-¢¢( *
-$num
-¢¢+ ,
+¢¢" #
+Any
+¢¢# &
+(
+¢¢& '
 )
-¢¢, -
+¢¢' (
+)
+¢¢( )
 {
 ££ 
 throw
@@ -1870,19 +1855,21 @@ Parameters
 if
 ±± 
 (
-±± 
+±± 
+!
+±± 
 _primaryKeyValues
-±± !
+±± "
 .
-±±! "
-Count
-±±" '
-==
-±±( *
-$num
-±±+ ,
+±±" #
+Any
+±±# &
+(
+±±& '
 )
-±±, -
+±±' (
+)
+±±( )
 {
 ²² 
 throw
@@ -3375,7 +3362,7 @@ primaryKey
 ÞÞ 	
 }
 ßß 
-}àà ž?
+}àà ¡A
 BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs
 	namespace
 
@@ -3646,8 +3633,13 @@ DataColumn##! +
 ArgumentExceptionOO +
 (OO+ ,
 $strOO, B
-)OOB C
-;OOC D
+,OOB C
+nameofOOD J
+(OOJ K
+queryOOK P
+)OOP Q
+)OOQ R
+;OOR S
 }PP 
 ifQQ 
 (QQ 
@@ -3671,8 +3663,13 @@ DataColumn##! +
 ArgumentExceptionSS +
 (SS+ ,
 $strSS, V
-)SSV W
-;SSW X
+,SSV W
+nameofSSX ^
+(SS^ _
+querySS_ d
+)SSd e
+)SSe f
+;SSf g
 }TT 
 ifUU 
 (UU 
@@ -3693,8 +3690,13 @@ DataColumn##! +
 ArgumentExceptionWW +
 (WW+ ,
 $strWW, Q
-)WWQ R
-;WWR S
+,WWQ R
+nameofWWS Y
+(WWY Z
+inClauseDataWWZ f
+)WWf g
+)WWg h
+;WWh i
 }XX 
 var[[ 
 
@@ -4658,7 +4660,7 @@ IsComputed!! 
 ;&&. /
 }&&0 1
 }'' 
-}(( ²%
+}(( ê$
 EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs
 	namespace 	
 	StatKings
@@ -4865,18 +4867,15 @@ parametersMMn x
 throwQQ 
 newQQ 
 ArgumentExceptionQQ +
-(QQ+ ,
-$"QQ, .
-{QQ. /
-nameofQQ/ 5
-(QQ5 6
-commandTypeQQ6 A
-)QQA B
-}QQB C'
- TableDirect not supported.QQC ^
-"QQ^ _
-)QQ_ `
-;QQ` a
+(QQ+ ,
+$strQQ, T
+,QQT U
+nameofQQV \
+(QQ\ ]
+commandTypeQQ] h
+)QQh i
+)QQi j
+;QQj k
 }RR 
 ifTT 
 (TT 
@@ -4892,17 +4891,16 @@ parametersMMn x
 newVV 
 ArgumentExceptionVV +
 (VV+ ,
-$"VV, .
-{VV. /
-nameofVV/ 5
-(VV5 6
-commandTextVV6 A
-)VVA B
-}VVB C
- is required.VVC P
-"VVP Q
-)VVQ R
-;VVR S
+$"VV, .%
+Command text is required.VV. G
+"VVG H
+,VVH I
+nameofVVJ P
+(VVP Q
+commandTextVVQ \
+)VV\ ]
+)VV] ^
+;VV^ _
 }WW 
 _commandTypeYY 
 =YY 
@@ -5329,7 +5327,7 @@ ComVisible 
 ('' 
 $str'' J
 )''J K
-]''K LŸ­
+]''K LÕ«
 8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs
 	namespace		 	
 	StatKings		
@@ -6191,30 +6189,10 @@ IDbCommand
 ÉÉ7 F
 )
 ÉÉF G
-,
-ÉÉG H
-$"
-ÉÉI K
-{
-ÉÉK L
-nameof
-ÉÉL R
-(
-ÉÉR S
-commandSettings
-ÉÉS b
 )
-ÉÉb c
-}
-ÉÉc d
- is required.
-ÉÉd q
-"
-ÉÉq r
-)
-ÉÉr s
+ÉÉG H
 ;
-ÉÉs t
+ÉÉH I
 }
 ÊÊ 
 var
@@ -7327,7 +7305,7 @@ Parameters
 ËË 	
 }
 ÌÌ 
-}ÍÍ §3
+}ÍÍ †4
 9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.cs
 	namespace 	
 	StatKings
@@ -7368,8 +7346,13 @@ UnitOfWork "
 ArgumentException +
 (+ ,
 $str, N
-)N O
-;O P
+,N O
+nameofP V
+(V W
+connectionStringW g
+)g h
+)h i
+;i j
 } 
 var 
 provider 

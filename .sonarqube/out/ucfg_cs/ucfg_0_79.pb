@@ -1,43 +1,19 @@
 
-CStatKings.SqlServerAdoNet.SqlRunner.Map<T>(System.Data.IDataRecord)D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs  ¸(record"0*
-0*
-1*
-1*
-2
-3*Ý
-2x
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¨! ¨(1%0$System.Data.IDataRecord.GetName(int)"
-""`
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¨ ¨(1
-recordName__id"
-
-%0Z
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs© ©(Lname__id"
-""—
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¬ ¬(?%1AStatKings.SqlServerAdoNet.ReflectionHelper.GetProperty<T>(string)"
+bStatKings.SqlServerAdoNet.QueryBuilder<T>.MakeSqlParameter(string, object, System.Data.SqlDbType?)O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÙ Þ(namevalue	sqlDbType"0*¶
+0¨
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÛ Û(4%0?System.Data.SqlClient.SqlParameter.SqlParameter(string, object)"
 
-name*
-4
-5*
-4*
-6*
-5*
-7
-8*
-7*
-6*
-8*
-6*
-6*
-1*S
-3"N
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs· ·(
+name"
+""*
+1
+2*
+1*
+2*^
+2"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÝ Ý(
 ""*
-9"
+3"
 ""

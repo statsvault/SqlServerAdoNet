@@ -1,5 +1,5 @@
 
-MStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException()\
-RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException.cs	 	(5"0*
+MStatKings.SqlServerAdoNet.CommandSettingsException.CommandSettingsException()\
+RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException.cs	 	(5"0*
 0"
 ""

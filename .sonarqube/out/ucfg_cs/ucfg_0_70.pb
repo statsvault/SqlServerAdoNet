@@ -1,7 +1,9 @@
 
-=StatKings.SqlServerAdoNet.UpdateProperties.UpdateProperties()P
-FC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\UpdateProperties.cs (O"0*
-0*
-1*
+=StatKings.SqlServerAdoNet.ReflectionHelper.GetProperties<T>()Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csK N("0*`
+0"[
+Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csM M(+
+""*
 1"
 ""

@@ -21,8 +21,15 @@ namespace StatKings.SqlServerAdoNet
         /// <returns>TValue</returns>
         public static TValue GetAttributeValue<TAttribute, TValue>(this Type type, Func<TAttribute, TValue> valueSelector) where TAttribute : Attribute
         {
-            var attr = type.GetCustomAttributes(typeof(TAttribute), true).FirstOrDefault() as TAttribute;
-            return GetAttributeValue(attr, valueSelector);
+            try
+            {
+                var attr = type.GetCustomAttributes(typeof(TAttribute), true).FirstOrDefault() as TAttribute;
+                return GetAttributeValue(attr, valueSelector);
+            }
+            catch
+            {
+                return default(TValue);
+            }
         }
 
         /// <summary>
@@ -35,8 +42,15 @@ namespace StatKings.SqlServerAdoNet
         /// <returns>TValue</returns>
         public static TValue GetAttributeValue<TAttribute, TValue>(this PropertyInfo prop, Func<TAttribute, TValue> valueSelector) where TAttribute : Attribute
         {
-            var attr = prop.GetCustomAttributes(typeof(TAttribute), true).FirstOrDefault() as TAttribute;
-            return GetAttributeValue(attr, valueSelector);
+            try
+            {
+                var attr = prop.GetCustomAttributes(typeof(TAttribute), true).FirstOrDefault() as TAttribute;
+                return GetAttributeValue(attr, valueSelector);
+            }
+            catch
+            {
+                return default(TValue);
+            }
         }
 
         /// <summary>

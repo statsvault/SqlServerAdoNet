@@ -1,9 +1,7 @@
 
-/StatKings.SqlServerAdoNet.SqlRunner.GetAll<T>()D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs‡ ‹("0*S
-0"N
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csŠ Š(B
-""*
+>StatKings.SqlServerAdoNet.SqlRunner.Delete<T>(params object[])D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs’ —(primaryKeyValues"0*
+0*
+1*
 1"
 ""

@@ -1,9 +1,9 @@
 
-CStatKings.SqlServerAdoNet.QueryBuilder<T>.AddCommaDelimiter(string)O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs» ¾(val"0*^
-0"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs½ ½(
+EStatKings.SqlServerAdoNet.ReflectionHelper.GetProperties(System.Type)Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csU X(type"0*`
+0"[
+Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csW W(l
 ""*
 1"
 ""

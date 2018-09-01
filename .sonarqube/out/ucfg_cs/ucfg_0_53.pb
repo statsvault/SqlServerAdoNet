@@ -1,9 +1,7 @@
 
-9StatKings.SqlServerAdoNet.CommandSettings.CommandText.getO
-EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs@$ @(?"0*^
-0"Y
-O
-EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs@* @(=
-""*
+AStatKings.SqlServerAdoNet.InClauseProperties.InClauseProperties()R
+HC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\InClauseProperties.cs ("0*
+0*
+1*
 1"
 ""

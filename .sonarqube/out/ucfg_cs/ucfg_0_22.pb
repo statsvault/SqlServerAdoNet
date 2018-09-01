@@ -1,19 +1,16 @@
 
-[StatKings.SqlServerAdoNet.QueryBuilder<T>.QueryBuilder(StatKings.SqlServerAdoNet.QueryType)M
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs *(	queryType"0*
+TStatKings.SqlServerAdoNet.SqlRunner.SqlRunner(StatKings.SqlServerAdoNet.IUnitOfWork)B
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs (
+unitOfWork"0*
 0*
 1
-2*»
-1°
-M
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs$ $(f%0SStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException(string)"
+2*—
+1Œ
+B
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs (B%0:System.ArgumentNullException.ArgumentNullException(string)"
 ""*
-3*¹
-2®
-M
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs) )(I%0IStatKings.SqlServerAdoNet.QueryBuilder<T>.FormatTableName(string, string)"
-"""
-""*
+3*
+2*
 3*
 3"
 ""

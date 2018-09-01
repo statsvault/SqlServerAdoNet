@@ -1,5 +1,5 @@
 
-MStatKings.SqlServerAdoNet.CommandSettingsException.CommandSettingsException()\
-RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException.cs	 	(5"0*
+SStatKings.SqlServerAdoNet.CommandSettingsException.CommandSettingsException(string)\
+RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException.cs (Jmessage"0*
 0"
 ""

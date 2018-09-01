@@ -1,16 +1,32 @@
 
-}StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(TAttribute, System.Func<TAttribute, TValue>)Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs2 9(attrvalueSelector"0*
-0*
+?StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeCommandSettings()N
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs| Ü("0*
+0*
 1
-2*`
-1"[
-Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs6 6(*
-""*`
-2"[
-Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs8 8("
-""*
-3"
+2
+3
+4
+5*^
+4"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÉ' É(B
+""*^
+3"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÇ' Ç(B
+""*^
+2"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÅ' Å(B
+""*^
+1"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÄ' Ä(B
+""*≥
+5®
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÖ Ö(H%0IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)"
+""*
+6*
+6"
 ""

@@ -19,13 +19,13 @@ RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException
  '
 / 6? F
 
- (
-; ? 
-R Y 
+ '
+/ 6 
+B P *
 
- *
-= A #
-T [% ,þ
+ *
+= A 
+T [  þ
 RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException.cs
 
  )
@@ -35,13 +35,13 @@ RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException
  '
 / 6? F
 
- (
-; ? 
-R Y 
+ '
+/ 6 
+B P *
 
- *
-= A #
-T [% ,ù
+ *
+= A 
+T [  ù
 MC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\SqlBuilderException.cs
 
  $
@@ -51,13 +51,13 @@ MC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\SqlBuilderException.cs
  "
 * 1: A
 
- #
-6 : 
-M T 
+ "
+* 1 
+= K *
 
- *
-= A #
-T [% ,±
+ %
+8 < 
+O V  ±
 CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\CommonHelper.cs
 
  &
@@ -136,9 +136,9 @@ CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs
 êê? T
 ‹‹? Tb
 + <LL OO !nn qq !
-’’ !
-¢¢ !
-±± !
+’’ "
+¢¢ "
+±± "
   ' 8v
   0
 ˜˜& 6
@@ -160,14 +160,14 @@ CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs
 00 '>
 008 H99 !;;b rFF+ ;
 HH˜ ¨OO? O<
-?? !BB !FF !LL? PMM  1OO& 7
+?? !BB "FF !LL? PMM  1OO& 7
 ??9 :??> ?2
 MM MM MM9 :OO8 9OOP Q 
 
 ›› (SS uu 
 
 ZZ %(
-ZZ( 6cc eeb piiG U
+ZZ( 6cc ee7 EiiG U
 ll !nn? Poo# 4
 ll9 :ll> ?
 oo qq& ,qqG M
@@ -338,7 +338,7 @@ CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs
 
 ÛÛ 
 ÜÜ$ )
-ÝÝ ý
+ÝÝ ›
 BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs
 
  #
@@ -357,9 +357,9 @@ BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs
 88 %::# )
 
 KK) B
-KKC DKK` a(
-KKM RMM* /QQ ^^) .2
-KKc oUU UU) 5[[ )dd9 E(
+KKC DKK` a<
+KKM RMM* /OOK PQQ SS_ d^^) .<
+KKc oUU UU) 5WWZ f[[ )dd9 E(
 [[ ^^A Kbb  *dd* 4
 
 [[2 3
@@ -557,8 +557,8 @@ EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs
 @@ !
 
 EE- 7(
-MM/ :OO QQ6 AYY &(
-MMC NTT* 5VV6 AZZ &
+MM/ :OO QQ] hYY &(
+MMC NTT* 5VVQ \ZZ &
 MMn x[[ $„
 HC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\InClauseProperties.cs
 
@@ -605,7 +605,7 @@ EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\WhereProperties.cs
 & 0# -
 
  %H
-FC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Properties\AssemblyInfo.cs
+FC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Properties\AssemblyInfo.csõ
 8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs
 
   
@@ -713,12 +713,11 @@ FC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Properties\AssemblyInfo.cs
 
 ºº 
 »» 
-¼¼ #T
+¼¼ #H
 
 ÄÄ9 H
 ÇÇ 
 ÉÉ7 F
-ÉÉS b
 ÎÎ -
 ÏÏ -
 ÒÒ  /<
@@ -849,13 +848,13 @@ FC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Properties\AssemblyInfo.cs
 ÃÃ  
 ÅÅ 
 ÇÇ 
-ÇÇF I”
+ÇÇF Iž
 9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.cs
 
  "
 
-" ((
-0 @* :. >!!? O
+" (2
+0 @* :W g. >!!? O
   %(
    $$" ,
  !!R T

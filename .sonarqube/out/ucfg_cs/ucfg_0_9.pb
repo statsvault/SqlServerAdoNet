@@ -1,7 +1,5 @@
 
-ŸStatKings.SqlServerAdoNet.CommandSettingsException.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)\
-RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException.cs (infocontext"0*
-0*
-1*
-1"
+eStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException(string, System.Exception)\
+RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException.cs (.messageinnerException"0*
+0"
 ""

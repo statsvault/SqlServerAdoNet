@@ -1,9 +1,16 @@
 
-=StatKings.SqlServerAdoNet.ReflectionHelper.GetProperties<T>()Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csK N("0*`
-0"[
-Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csM M(+
+IStatKings.SqlServerAdoNet.SqlRunner.MapToList<T>(System.Data.IDataReader)D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csè ò(reader"0*
+0*
+1*
+1*
+2
+3*
+2*
+1*S
+3"N
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csó ó(
 ""*
-1"
+4"
 ""
