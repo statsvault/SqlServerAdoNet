@@ -48,16 +48,13 @@ namespace StatKings.SqlServerAdoNet
             foreach (var prop in props)
             {
                 var type = prop.PropertyType;
-                var tableColumn = new Column { Id = prop.Name };
+                var tableColumn = CreateColumn(prop);
 
                 // See if the property has a Key attibute.
                 SetIsPrimaryKey(type, prop, tableColumn);
 
                 // See if the property has a DatabaseGeneratedAttribute attribute.
-                SetDatabaseGeneratedFlags(type, prop, tableColumn);
-
-                // See if the property has a Column attribute.
-                SetColumnAttributes(type, prop, tableColumn);
+                SetDatabaseGeneratedFlags(prop, tableColumn);                
 
                 tableColumns.Add(tableColumn);
             }
@@ -75,6 +72,33 @@ namespace StatKings.SqlServerAdoNet
             }
 
             return tableColumns;
+        }
+
+        /// <summary>
+        /// Initialize the table column.
+        /// </summary>
+        /// <param name="prop">Property to check for ColumnAttribute.</param>
+        /// <returns>Column</returns>
+        private static Column CreateColumn(PropertyInfo prop)
+        {
+            var tableColumn = new Column { Id = prop.Name, Name = prop.Name };
+
+            var colAttr = prop.GetAttributeValue((ColumnAttribute a) => a);
+            if (colAttr != null)
+            {
+                if (!string.IsNullOrWhiteSpace(colAttr.Name))
+                {
+                    tableColumn.Name = colAttr.Name;
+                }
+
+                // See if it specifies the database type.
+                if (!string.IsNullOrWhiteSpace(colAttr.TypeName))
+                {
+                    tableColumn.SqlDbType = GetDbType(colAttr.TypeName);
+                }
+            }
+
+            return tableColumn;
         }
 
         /// <summary>
@@ -104,10 +128,9 @@ namespace StatKings.SqlServerAdoNet
         /// <summary>
         /// Set the column database generated flags.
         /// </summary>
-        /// <param name="type"Type of the object.></param>
         /// <param name="prop">Property to check for DatabaseGeneratedAttribute</param>
         /// <param name="tableColumn">Column to set database generated flags.</param>
-        private static void SetDatabaseGeneratedFlags(Type type, PropertyInfo prop, Column tableColumn)
+        private static void SetDatabaseGeneratedFlags(PropertyInfo prop, Column tableColumn)
         {
             tableColumn.IsIdentity = false;
             tableColumn.IsComputed = false;
@@ -121,33 +144,6 @@ namespace StatKings.SqlServerAdoNet
                 // Flag if the property is an identity or computed column.
                 tableColumn.IsIdentity = dbGenOpt == DatabaseGeneratedOption.Identity;
                 tableColumn.IsComputed = dbGenOpt == DatabaseGeneratedOption.Computed;
-            }
-        }
-
-        /// <summary>
-        /// Set the other column attributes like Name and SqlDbType.
-        /// </summary>
-        /// <param name="type">Type of the object.</param>
-        /// <param name="prop">Property to check for ColumnAttribute.</param>
-        /// <param name="tableColumn">Column to set column attribute values.</param>
-        private static void SetColumnAttributes(Type type, PropertyInfo prop, Column tableColumn)
-        {
-            tableColumn.Name = prop.Name;
-            tableColumn.SqlDbType = null;
-
-            var colAttr = prop.GetAttributeValue((ColumnAttribute a) => a);
-            if (colAttr != null)
-            {
-                if (!string.IsNullOrWhiteSpace(colAttr.Name))
-                {
-                    tableColumn.Name = colAttr.Name;
-                }
-
-                // See if it specifies the database type.
-                if (!string.IsNullOrWhiteSpace(colAttr.TypeName))
-                {
-                    tableColumn.SqlDbType = GetDbType(colAttr.TypeName);
-                }
             }
         }
 

@@ -1,12 +1,12 @@
 
-7StatKings.SqlServerAdoNet.UnitOfWork.BeginTransaction()C
-9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.cs@ O("0*
+/StatKings.SqlServerAdoNet.UnitOfWork.Rollback()C
+9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.csj {("0*
 0*
 1
-2* 
-1•
-C
-9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.csD D(]%0BSystem.InvalidOperationException.InvalidOperationException(string)"
+2*¡
+1–
+D
+9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.csn n(ƒ%0BSystem.InvalidOperationException.InvalidOperationException(string)"
 ""*
 3*
 2*	
@@ -15,13 +15,15 @@ C
 3*
 5*	
 4
-3
+6
 3*»
 4°
 D
-9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.csM M(„%0TSystem.InvalidOperationException.InvalidOperationException(string, System.Exception)"
+9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.csw w(°%0TSystem.InvalidOperationException.InvalidOperationException(string, System.Exception)"
 """
 ""*
+3*
+6*
 3*
 3"
 ""

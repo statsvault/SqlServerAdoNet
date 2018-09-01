@@ -7,15 +7,15 @@ RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException
 MC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\SqlBuilderException.cs (08@HR 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=4;2=0;4=0;6=0;8=0;10=0;12=0jr	‰
 CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\CommonHelper.cs
  8@HR 0=0;5=0;10=1;20=0;30=0;60=0;90=0Z1=0;2=0;4=3;6=0;8=0;10=0;12=0j	
- !"#$%01234r&&'()*+,-.56789:;<=>?@xÇ(*+-789;=”
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs* 8@HR 0=0;5=0;10=1;20=0;30=0;60=0;90=0Z1=0;2=2;4=0;6=0;8=0;10=0;12=1j&
-#&/01238;BFLPTWbku{ÑÖÜáàrk	 !"$'()*,-4569<=>@CDEGHIJMNQRSUXYZ[\]^_`cdefghilmnoprsvwxy|}~ÅÇâäãåçéèêëíìxÇ('),9<>@CDGIMQRUXZ\^cdfhlnrvx|~Ååéê≥
+ !"#$%01234r&&'()*+,-.56789:;<=>?@xÇ(*+-789;=õ
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs0 8@HR 0=0;5=0;10=0;20=1;30=0;60=0;90=0Z1=0;2=2;4=4;6=0;8=0;10=0;12=0j;#$%&',/58;AGPQRSTU]chijklmvyÄÅÇÉÑíöõúùûrä	
+ !()*-012369<>?BCDEHIJKMNVWXZ[\^_`adefnopqstuwz{|}ÖÜáàäãåçéèêìîïñóòü†°¢£§•¶®©™´¨≠ÆØ∞xÇ; -02369<>BDHJMXZ[^`dpqstwz{áàäãçèìï¢£•©´≠≥
 CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csa 8.@.H.R 0=0;5=0;10=0;20=0;30=1;60=0;90=0Z1=2;2=8;4=3;6=2;8=0;10=0;12=0jù
 ',-./28>AKRVWXY\bhktxyz{àâäãéëõúùû°™´¨≠∞∂¿¡¬√∆… ◊ÿŸ⁄‚Óˆ˜¯˘Çêòôö¨≠ÆØ∞∂∑∏π∫¿¡¬√ƒ≈“”‘’÷◊ÿr⁄	 "#$%()*0134569:;<?BCDEFGHILMNOPSTZ[]^_`cdefilnopqruv|}~ÄÅÇÉÑÖÜåçèíìîïóòôü†¢£§•¶ß®ÆØ±≤≥¥∑π∫ºΩæƒ≈«ÀÕŒœ–—”‘’€‹›ﬁ‡·„‰ÂÊËÈÍÎÏÔÒÚÛÙ˙˚¸˝˛ÄÅÉÑÖÜàâäãåçéëíìîïñõúùû†°¢§•ß®©™±≤≥¥ªºΩæ∆«»… ÀÃÕŒœ–Ÿ⁄€‹›ﬁﬂ‡xÇû "$()359;?BDFHLMOS]_ceilnoqu~ÄÅÇÉÖèíîóò¢§¶ß±≥∑π∫ºΩ«ÀÕœ–”‘‡„ÂËÈÍÏÔÒÛÄÉÖàâäãçéëìïù†¢§•ß©≥Ω» Œ‹›™
 BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs (8@HR 0=0;5=0;10=1;20=0;30=0;60=0;90=0Z1=1;2=1;4=0;6=2;8=0;10=0;12=0j#012DEFGHIJZ]`jklmntuvwxrN
- !"#$%'()*+,-./345689:;<>?ABKLMNOPQRSTUVWX[^abcdeghopqryz{|}~xÇ "$%')*+358:>AMOQSUW[^bdgq{¡
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs 	8@HR 0=0;5=0;10=1;20=0;30=0;60=0;90=0Z1=6;2=3;4=0;6=0;8=0;10=0;12=0j;	
- !"#*+,-./01;<=>?@FGHIJPQRSTZ[\]^_mnopqxyz{|rM$%&'(23456789ABCDKLMNUVWX`abdefghjkrstuv}~ÅÇÉÑÖÜàâäãxÇ&'468CMWdegjtuÅÇÑÖà°
+ !"#$%'()*+,-./345689:;<>?ABKLMNOPQRSTUVWX[^abcdeghopqryz{|}~xÇ "$%')*+358:>AMOQSUW[^bdgq{‡
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs 	8@HR 0=0;5=0;10=1;20=0;30=0;60=0;90=0Z1=6;2=3;4=0;6=0;8=0;10=0;12=0j@	
+#$%&'()*89:;<=>?IJKLMNTUVWX^_`abhijklm{|}~Üáàâärc !+,-./0123456@ABCDEFGOPQRYZ[\cdefnoprstuvxyÄÅÇÉÑãåçèêëíìîñóòôxÇ/04BDFQ[ersuxÇÉèêíìñ°
 DC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Interfaces\ISqlRunner.cs(0R 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=0;2=0;4=0;6=0;8=0;10=0;12=0r
 ú
 EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Interfaces\IUnitOfWork.cs(0R 0=1;5=0;10=0;20=0;30=0;60=0;90=0Z1=0;2=0;4=0;6=0;8=0;10=0;12=0r	

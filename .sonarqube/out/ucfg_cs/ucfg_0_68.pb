@@ -1,16 +1,15 @@
 
-}StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(TAttribute, System.Func<TAttribute, TValue>)Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs2 9(attrvalueSelector"0*
-0*
-1
-2*`
-1"[
-Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs6 6(*
-""*`
-2"[
-Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs8 8("
-""*
-3"
+?StatKings.SqlServerAdoNet.QueryHelper.MakeParameterName(string)L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csy |(	paramName"0*Ð
+0s
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs{ {(!%0__concat"
+
+	paramName"
+"""V
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs{ {("
+
+%0*
+1"
 ""

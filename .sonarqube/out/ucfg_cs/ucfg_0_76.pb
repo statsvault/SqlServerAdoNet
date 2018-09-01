@@ -1,33 +1,9 @@
 
-FStatKings.SqlServerAdoNet.ReflectionHelper.GetPropertyColumnNames<T>()R
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs} ‰("0*
-0*
-1*
-1*
-2
-3*‹
-2ý
-S
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs„ „(R%0‘StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(System.Reflection.PropertyInfo, System.Func<TAttribute, TValue>)"
-"""
-""*
-4
-5*
-4*
-5*®
-5l
-S
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs„ „(_colName__id"
-""µ
-S
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs… …(/%0ESystem.Collections.Generic.Dictionary<TKey, TValue>.Add(TKey, TValue)"
-"""
-	
-colName*
-1*b
-3"]
-S
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csˆ ˆ(
+EStatKings.SqlServerAdoNet.ReflectionHelper.GetProperties(System.Type)Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csc f(type"0*`
+0"[
+Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cse e(l
 ""*
-6"
+1"
 ""

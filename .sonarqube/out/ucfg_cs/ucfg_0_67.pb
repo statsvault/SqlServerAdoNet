@@ -1,9 +1,14 @@
 
-‘StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(System.Reflection.PropertyInfo, System.Func<TAttribute, TValue>)Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs$ ((propvalueSelector"0*`
-0"[
-Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs' '(9
+6StatKings.SqlServerAdoNet.QueryHelper.ToDBNull(object)L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cso r(value"0*
+0*
+1
+2*
+1*
+2*[
+2"V
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csq q((
 ""*
-1"
+3"
 ""

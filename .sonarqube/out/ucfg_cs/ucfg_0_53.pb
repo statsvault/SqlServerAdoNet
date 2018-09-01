@@ -1,6 +1,6 @@
 
-AStatKings.SqlServerAdoNet.InClauseProperties.InClauseProperties()R
-HC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\InClauseProperties.cs ("0*
+=StatKings.SqlServerAdoNet.UpdateProperties.UpdateProperties()P
+FC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\UpdateProperties.cs (O"0*
 0*
 1*
 1"

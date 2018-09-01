@@ -1,43 +1,53 @@
 
-CStatKings.SqlServerAdoNet.SqlRunner.Map<T>(System.Data.IDataRecord)D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs† ∏(record"0*
-0*
-1*
-1*
-2
-3*›
-2x
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs®! ®(1%0$System.Data.IDataRecord.GetName(int)"
-""`
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs® ®(1
-recordName__id"
+>StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeSelectSettings()O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cså ô("0*—
+0™
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csè è(\%0Cstring.Join(string, System.Collections.Generic.IEnumerable<string>)"
+"""
+""´
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csè è(p%1DStatKings.SqlServerAdoNet.CommonHelper.RemoveFromEnd(string, string)"
 
-%0Z
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs© ©(Lname__id"
-""ó
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¨ ¨(?%1AStatKings.SqlServerAdoNet.ReflectionHelper.GetProperty<T>(string)"
-
-name*
-4
-5*
-4*
-6*
-5*
-7
-8*
-7*
-6*
-8*
-6*
-6*
-1*S
-3"N
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs∑ ∑(
+%0"
+""i
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csè è(pcolNames__id"
+
+%1*
+1
+2*û
+1ö
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csî+ î(e%0%string.Format(string, object, object)"
+"""
+
+
+colNames"
+""†
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csî î(f%1AStatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string)"
+
+%0"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csî î(g
+""*˝
+2™
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csó' ò(F%0-string.Format(string, object, object, object)"
+"""
+
+
+colNames"
+"""
+""Ô
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csó ò(d%1áStatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
+
+%0"
+"""Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csó ò(e
 ""*
-9"
+3"
 ""

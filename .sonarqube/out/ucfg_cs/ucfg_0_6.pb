@@ -1,5 +1,5 @@
 
-ªStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)\
-RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException.cs ($infocontext"0*
+eStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException(string, System.Exception)\
+RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException.cs (.messageinnerException"0*
 0"
 ""

@@ -1,16 +1,32 @@
 
-IStatKings.SqlServerAdoNet.SqlRunner.MapToList<T>(System.Data.IDataReader)D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csè ò(reader"0*
-0*
-1*
-1*
+?StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeCommandSettings()N
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs| Ü("0*
+0*
+1
 2
-3*
-2*
-1*S
-3"N
-D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csó ó(
-""*
-4"
+3
+4
+5*^
+4"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÉ' É(B
+""*^
+3"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÇ' Ç(B
+""*^
+2"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÅ' Å(B
+""*^
+1"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÄ' Ä(B
+""*≥
+5®
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÖ Ö(H%0IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)"
+""*
+6*
+6"
 ""

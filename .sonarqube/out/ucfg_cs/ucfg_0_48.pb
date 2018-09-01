@@ -1,28 +1,43 @@
 
->StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeUpdateSettings()O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs® ¾("0*
+>StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeInsertSettings()O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÄ Õ("0*
 0*
 1
-2*³
-1¨
+2*—
+1œ
 O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs³ ³(e%0IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)"
-""*
-3*÷
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÐ5 Ð(T%0=StatKings.SqlServerAdoNet.QueryBuilder<T>.AddBrackets(string)"
+""¥
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ+ Ð(i%1&string.Format(string, params object[])"
+"""
+"""
+"""
+
+%0"
+""ï
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ð(|%2‡StatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
+
+%1"
+"""Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ð(}
+""*÷
 2¤
 O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs¼' ½(M%0-string.Format(string, object, object, object)"
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÓ' Ô(C%0-string.Format(string, object, object, object)"
 """
 """
 """
 ""ï
 O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs¼ ½(T%1‡StatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÓ Ô(V%1‡StatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
 
 %0"
 """Y
 O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs¼ ½(U
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÓ Ô(W
 ""*
 3"
 ""

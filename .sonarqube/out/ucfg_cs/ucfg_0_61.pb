@@ -1,15 +1,13 @@
 
-?StatKings.SqlServerAdoNet.QueryHelper.MakeParameterName(string)L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csy |(	paramName"0*Ð
-0s
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs{ {(!%0__concat"
-
-	paramName"
-"""V
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs{ {("
-
-%0*
+ZStatKings.SqlServerAdoNet.CommandSettings.CommandSettings(System.Data.CommandType, string)O
+EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs !(commandTypecommandText"0*¢
+0—
+O
+EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs   (P%0žStatKings.SqlServerAdoNet.CommandSettings.SetProperties(System.Data.CommandType, string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
+"""
+
+commandText"
+""*
+1*
 1"
 ""

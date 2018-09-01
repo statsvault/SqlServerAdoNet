@@ -1,84 +1,60 @@
 
-uStatKings.SqlServerAdoNet.QueryHelper.ParameterizeInClauseQuery<T>(string, System.Collections.Generic.IEnumerable<T>)L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csK h(queryinClauseData"0*Ž
-0€
+…StatKings.SqlServerAdoNet.QueryHelper.MakeTableValuedParameter<T>(string, System.Collections.Generic.IEnumerable<T>, params string[])L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs B(	paramNamedatacolumnNames"0*Ä
+0¹
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csM M(/%0!string.IsNullOrWhiteSpace(string)"	
-
-query*
-1
-2*©
-1ž
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csO O(Q%0:System.ArgumentException.ArgumentException(string, string)"
-"""
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs (F%0NSystem.Data.SqlClient.SqlParameter.SqlParameter(string, System.Data.SqlDbType)"
+
+	paramName"
 ""*
-3*¬
-2ž
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csQ Q(L%0/string.IndexOf(string, System.StringComparison)"	
-
-query"
-"""
-""*
+1*
+1*
+2
+3*
+3*
+2*
+2*
 4
-5*©
-4ž
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csS S(e%0:System.ArgumentException.ArgumentException(string, string)"
-"""
-""*
-3*
-5*
+5*
+4*
 6
 7*
+6*
+8*
 7*
-6*
-6*
-8
-9*©
-8ž
+8*ü
+8e
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csW W(g%0:System.ArgumentException.ArgumentException(string, string)"
-"""
-""*
-3*ƒ
-9ˆ
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs" "(TcolName__id"
+""Š
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs^0 ^(K%0$string.Join(string, params string[])"
-"""
-""„
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs^ ^(L%1string.Format(string, object)"	
-
-query"
-
-%0f
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs^ ^(LoutQuery__id"
-
-%1*
-10*
-10*
-11
-12*°
-11£
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csd d(]%0?System.Data.SqlClient.SqlParameter.SqlParameter(string, object)"
-"""
-""*
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs# #(3%0)System.Data.DataColumn.DataColumn(string)"
+	
+colName*
+9*
+9*
+10
+11*	
+10*
+9*
+5*
+12
+13*
+
+12*
 13*
 
 13*
-10*÷
-12˜
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csg. g(=%06StatKings.SqlServerAdoNet.InClauseProperties.Query.set"
+14*
 
+14*
+11*
 
-outQuery"V
+11*
+15*\
+15"V
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csg g(S
-""*
-3"
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csA A(
+""*
+16"
 ""

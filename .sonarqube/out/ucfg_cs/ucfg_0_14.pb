@@ -1,8 +1,9 @@
 
-JStatKings.SqlServerAdoNet.UnitOfWork.UnitOfWork(System.Data.IDbConnection)C
-9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.cs- 0(
-connection"0*
-0*
-1*
+4StatKings.SqlServerAdoNet.UnitOfWork.CreateCommand()C
+9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.cs6 ;("0*R
+0"M
+C
+9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.cs: :(
+""*
 1"
 ""

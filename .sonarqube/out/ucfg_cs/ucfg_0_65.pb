@@ -1,76 +1,84 @@
 
-@StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeUpdateProperties()O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs€ Ù("0*
-0*
-1*
-1*
-2
-3*
-2*
+uStatKings.SqlServerAdoNet.QueryHelper.ParameterizeInClauseQuery<T>(string, System.Collections.Generic.IEnumerable<T>)L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csK h(queryinClauseData"0*é
+0Ä
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csM M(/%0!string.IsNullOrWhiteSpace(string)"	
+
+query*
+1
+2*©
+1û
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csO O(Q%0:System.ArgumentException.ArgumentException(string, string)"
+"""
+""*
+3*¨
+2û
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csQ Q(L%0/string.IndexOf(string, System.StringComparison)"	
+
+query"
+"""
+""*
 4
-5*
-5*
-4*
-4*
+5*©
+4û
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csS S(e%0:System.ArgumentException.ArgumentException(string, string)"
+"""
+""*
+3*
+5*
 6
 7*
 7*
 6*
 6*
 8
-9*
-8*
-1*ù
-9û
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csË Ë(D%0?StatKings.SqlServerAdoNet.QueryHelper.MakeParameterName(string)"
-""h
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csË Ë(DprmName__id"
-
-%0ú
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÈ2 È(F%1=StatKings.SqlServerAdoNet.QueryBuilder<T>.AddBrackets(string)"
-""Ö
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÈ! È(W%2&string.Format(string, params object[])"
-""á
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÈ È(X%3(System.Text.StringBuilder.Append(string)"
-
-%2÷
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÍ% Í(v%4bStatKings.SqlServerAdoNet.QueryBuilder<T>.MakeSqlParameter(string, object, System.Data.SqlDbType?)"
-	
-prmName"
+9*©
+8û
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csW W(g%0:System.ArgumentException.ArgumentException(string, string)"
 """
 ""*
-1*œ
-3{
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ï(1%0$System.Text.StringBuilder.ToString()´
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ï(E%1DStatKings.SqlServerAdoNet.CommonHelper.RemoveFromEnd(string, string)"
+3*É
+9à
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs^0 ^(K%0$string.Join(string, params string[])"
+"""
+""Ñ
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs^ ^(L%1string.Format(string, object)"	
+
+query"
 
-%0"
-""ó
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ï(E%28StatKings.SqlServerAdoNet.UpdateProperties.SetClause.set"
+%0f
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs^ ^(LoutQuery__id"
 
-%1{
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÔ Ô(4%3string.IsNullOrEmpty(string)"
-""*
-10
-11*µ
-10®
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÒ Ò(b%0IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)"
+%1*
+10*
+10*
+11
+12*∞
+11£
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csd d(]%0?System.Data.SqlClient.SqlParameter.SqlParameter(string, object)"
+"""
 ""*
-12*_
-11"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÛ Û(
-""*
-12"
+13*
+
+13*
+10*˜
+12ò
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csg. g(=%06StatKings.SqlServerAdoNet.InClauseProperties.Query.set"
+
+
+outQuery"V
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csg g(S
+""*
+3"
 ""

@@ -1,60 +1,16 @@
 
-ÖStatKings.SqlServerAdoNet.QueryHelper.MakeTableValuedParameter<T>(string, System.Collections.Generic.IEnumerable<T>, params string[])L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs B(	paramNamedatacolumnNames"0*ƒ
-0π
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs (F%0NSystem.Data.SqlClient.SqlParameter.SqlParameter(string, System.Data.SqlDbType)"
-
-	paramName"
-""*
+IStatKings.SqlServerAdoNet.SqlRunner.MapToList<T>(System.Data.IDataReader)D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csè ò(reader"0*
+0*
 1*
 1*
 2
 3*
-3*
-2*
-2*
-4
-5*
-4*
-6
-7*
-6*
-8*
-7*
-8*¸
-8e
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs" "(TcolName__id"
-""ä
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs# #(3%0)System.Data.DataColumn.DataColumn(string)"
-	
-colName*
-9*
-9*
-10
-11*	
-10*
-9*
-5*
-12
-13*
-
-12*
-13*
-
-13*
-14*
-
-14*
-11*
-
-11*
-15*\
-15"V
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csA A(
-""*
-16"
+2*
+1*S
+3"N
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csó ó(
+""*
+4"
 ""

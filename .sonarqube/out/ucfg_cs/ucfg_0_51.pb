@@ -1,43 +1,43 @@
 
->StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeInsertSettings()O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÄ Õ("0*
-0*
-1
-2*—
-1œ
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÐ5 Ð(T%0=StatKings.SqlServerAdoNet.QueryBuilder<T>.AddBrackets(string)"
-""¥
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ+ Ð(i%1&string.Format(string, params object[])"
-"""
-"""
-"""
+CStatKings.SqlServerAdoNet.SqlRunner.Map<T>(System.Data.IDataRecord)D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs  ¸(record"0*
+0*
+1*
+1*
+2
+3*Ý
+2x
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¨! ¨(1%0$System.Data.IDataRecord.GetName(int)"
+""`
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¨ ¨(1
+recordName__id"
 
-%0"
-""ï
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ð(|%2‡StatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
-
-%1"
-"""Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ð(}
-""*÷
-2¤
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÓ' Ô(C%0-string.Format(string, object, object, object)"
-"""
-"""
-"""
-""ï
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÓ Ô(V%1‡StatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
-
-%0"
-"""Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÓ Ô(W
+%0Z
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs© ©(Lname__id"
+""—
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¬ ¬(?%1AStatKings.SqlServerAdoNet.ReflectionHelper.GetProperty<T>(string)"
+
+name*
+4
+5*
+4*
+6*
+5*
+7
+8*
+7*
+6*
+8*
+6*
+6*
+1*S
+3"N
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs· ·(
 ""*
-3"
+9"
 ""
