@@ -1,7 +1,9 @@
 
-0StatKings.SqlServerAdoNet.SqlRunner.Insert<T>(T)D
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¬ ±(entity"0*
-0*
-1*
+=StatKings.SqlServerAdoNet.ReflectionHelper.GetProperties<T>()Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csK N("0*`
+0"[
+Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csM M(+
+""*
 1"
 ""

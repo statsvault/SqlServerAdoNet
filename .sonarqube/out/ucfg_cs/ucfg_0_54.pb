@@ -1,7 +1,9 @@
 
-;StatKings.SqlServerAdoNet.WhereProperties.WhereProperties()O
-EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\WhereProperties.cs (N"0*
-0*
-1*
+8StatKings.SqlServerAdoNet.CommandSettings.Parameters.getO
+EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.csE: E(T"0*^
+0"Y
+O
+EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.csE@ E(R
+""*
 1"
 ""

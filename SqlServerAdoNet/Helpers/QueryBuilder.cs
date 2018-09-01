@@ -63,7 +63,7 @@ namespace StatKings.SqlServerAdoNet
             var primaryKeyColumns = _entityColumns.Where(x => x.IsPrimaryKey).ToList();
 
             // Make sure the model has primary keys and that we have values for them.
-            if (primaryKeyColumns.Count == 0)
+            if (!primaryKeyColumns.Any())
             {
                 throw new ModelDefinitionException("The model does not contain any primary keys.");
             }
@@ -86,7 +86,7 @@ namespace StatKings.SqlServerAdoNet
         /// <summary>
         /// Set the entity instance to use for the query.  Used for Delete, Update, and Insert queries.
         /// </summary>
-        /// <param name="entityInstance"></param>
+        /// <param name="entityInstance">Instance of entity.</param>
         public void SetEntityInstance(T entityInstance)
         {
             // Method not valid for Selects.
@@ -98,7 +98,7 @@ namespace StatKings.SqlServerAdoNet
             // Make sure an entity was passed in since we'll be using its property values.
             if (entityInstance == null)
             {
-                throw new ArgumentNullException("A non-null entity instance is required.", nameof(entityInstance));
+                throw new ArgumentNullException(nameof(entityInstance));
             }
 
             // Get the properties and their values from the entity instance.
@@ -143,7 +143,7 @@ namespace StatKings.SqlServerAdoNet
             var colNames = string.Join(", ", _entityColumns.Select(x => AddBrackets(x.Name))).RemoveFromEnd(", ");
 
             // If we don't have any primary key values then return a select all statement.
-            if (_primaryKeyValues.Count == 0)
+            if (!_primaryKeyValues.Any())
             {
                 return new CommandSettings(string.Format("select {0} from {1};", colNames, _tableName));
             }
@@ -159,7 +159,7 @@ namespace StatKings.SqlServerAdoNet
         private CommandSettings MakeDeleteSettings()
         {
             // The builder only allows deletes for primary keys.
-            if (_primaryKeyValues.Count == 0)
+            if (!_primaryKeyValues.Any())
             {
                 throw new SqlBuilderException("Delete requires primary key columns and their values.");
             }
@@ -174,7 +174,7 @@ namespace StatKings.SqlServerAdoNet
         private CommandSettings MakeUpdateSettings()
         {
             // The builder only allows updates for primary keys.
-            if (_primaryKeyValues.Count == 0)
+            if (!_primaryKeyValues.Any())
             {
                 throw new SqlBuilderException("Update requires primary key columns and their values.");
             }

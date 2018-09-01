@@ -1,7 +1,6 @@
 
-IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)W
-MC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\SqlBuilderException.cs
- 
-(Emessage"0*
+ªStatKings.SqlServerAdoNet.CommandSettingsException.CommandSettingsException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)\
+RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException.cs (
+infocontext"0*
 0"
 ""

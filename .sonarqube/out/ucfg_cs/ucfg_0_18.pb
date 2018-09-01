@@ -1,22 +1,27 @@
 
-7StatKings.SqlServerAdoNet.ModelHelper.GetDbType(string)N
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csâ ë(type"0*≤
-0§
-N
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cså å(@%04System.Enum.TryParse<TEnum>(string, bool, out TEnum)"
-
-type"
-"""
-""*
+7StatKings.SqlServerAdoNet.UnitOfWork.BeginTransaction()C
+9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.cs@ O("0*
+0*
 1
-2*]
-1"X
-N
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csé é(
-""*]
-2"X
-N
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csê ê(
-""*
+2*†
+1ï
+C
+9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.csD D(]%0BSystem.InvalidOperationException.InvalidOperationException(string)"
+""*
+3*
+2*	
+4
+5
+3*
+5*	
+4
+3
+3*ª
+4∞
+D
+9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.csM M(Ñ%0TSystem.InvalidOperationException.InvalidOperationException(string, System.Exception)"
+"""
+""*
+3*
 3"
 ""

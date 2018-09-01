@@ -15,7 +15,7 @@ namespace StatKings.SqlServerAdoNet
         {
             if (string.IsNullOrWhiteSpace(connectionString))
             {
-                throw new ArgumentException("A connection string is requried.");
+                throw new ArgumentException("A connection string is requried.", nameof(connectionString));
             }
 
             // Get the provider from the provider factory and create the connection.

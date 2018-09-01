@@ -1,59 +1,28 @@
 
-NStatKings.SqlServerAdoNet.QueryBuilder<T>.SetPrimaryKeyValues(params object[])M
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs0 T(primaryKeyValues"0*
+ûStatKings.SqlServerAdoNet.CommandSettings.SetProperties(System.Data.CommandType, string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)O
+EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.csM \(commandTypecommandText
+parameters"0*
 0*
 1
-2*
-2*
-1*
-1*
-3
-4*´
-3†
-N
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs5 5(ç%0BSystem.InvalidOperationException.InvalidOperationException(string)"
+2*ú
+1ë
+O
+EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.csQ Q(_%02System.ArgumentException.ArgumentException(string)"
 ""*
-5*
-4*
-6
-7*ö
-6è
-M
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs; ;(Y%02System.ArgumentException.ArgumentException(string)"
-""*
-5*
-7*
-8
-9*ª
-8∞
-M
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csD D(a%0SStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException(string)"
-""*
-5*
-9*
-10
-11*ú
-10ê
-N
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csH H(è%02System.ArgumentException.ArgumentException(string)"
-""*
-5*
+3*ó
+2â
+O
+EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.csT T(5%0!string.IsNullOrWhiteSpace(string)"
 
-11*
-12*
-12*
-13
-14*∑
-13™
-M
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csO O(R%0ESystem.Collections.Generic.Dictionary<TKey, TValue>.Add(TKey, TValue)"
-"""
-""*
-15*
-
-15*
-12*	
-14*
-5*
-5"
+commandText*
+4
+5*ú
+4ë
+O
+EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.csV V(Q%02System.ArgumentException.ArgumentException(string)"
+""*
+3*
+5*
+3*
+3"
 ""

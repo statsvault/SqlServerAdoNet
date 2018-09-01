@@ -1,9 +1,29 @@
 
-dStatKings.SqlServerAdoNet.SqlRunner.ExecuteReaderFirst<T>(StatKings.SqlServerAdoNet.CommandSettings)B
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csp s(commandSettings"0*Q
-0"L
+\StatKings.SqlServerAdoNet.SqlRunner.ExecuteScalar(StatKings.SqlServerAdoNet.CommandSettings)B
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs: K(commandSettings"0*
+0*	
+1
+2
+3*Q
+2"L
 B
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csr r(E
-""*
-1"
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csA A(
+""*
+4*	
+1
+5
+3*
+1*
+3*
+3*
+6
+7*
+6*
+7*
+5*
+8
+7*
+8*
+7*
+7"
 ""

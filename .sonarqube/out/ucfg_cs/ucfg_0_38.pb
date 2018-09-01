@@ -1,13 +1,9 @@
 
-AStatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string)O
-EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs (commandText"0*¢
-0—
-O
-EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs (U%0žStatKings.SqlServerAdoNet.CommandSettings.SetProperties(System.Data.CommandType, string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
-"""
-
-commandText"
-""*
-1*
+~StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(System.Type, System.Func<TAttribute, TValue>)Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs (typevalueSelector"0*`
+0"[
+Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs (9
+""*
 1"
 ""

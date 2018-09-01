@@ -10,13 +10,11 @@ namespace StatKings.SqlServerAdoNet
 
         public SqlBuilderException(string message) : base(message) { }
 
-        private SqlBuilderException(SerializationInfo info, StreamingContext context)
-        : base(info, context)
-        { }
+        public SqlBuilderException(string message, Exception innerException)
+            : base(message, innerException) { }
 
-        public override void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            base.GetObjectData(info, context);
-        }
+        // Without this constructor, deserialization will fail
+        protected SqlBuilderException(SerializationInfo info, StreamingContext context)
+            : base(info, context) { }
     }
 }

@@ -492,12 +492,12 @@ namespace StatKings.SqlServerAdoNet.UnitTests
         private static IEnumerable<TestCaseData> ParameterizeInClauseQueryExceptionTestCases()
         {
             var prmVals = new List<object> { "apple", "banana", "orange" };
-            yield return new TestCaseData("", prmVals, "A query is required.");
-            yield return new TestCaseData("  ", prmVals, "A query is required.");
-            yield return new TestCaseData(null, prmVals, "A query is required.");
-            yield return new TestCaseData("select * from MyTable;", prmVals, "The query does not contain an IN clause.");
-            yield return new TestCaseData(IN_CLAUSE_QUERY, new List<object>(), "Data for the IN clause is required.");
-            yield return new TestCaseData(IN_CLAUSE_QUERY, null, "Data for the IN clause is required.");
+            yield return new TestCaseData("", prmVals, "A query is required.\r\nParameter name: query");
+            yield return new TestCaseData("  ", prmVals, "A query is required.\r\nParameter name: query");
+            yield return new TestCaseData(null, prmVals, "A query is required.\r\nParameter name: query");
+            yield return new TestCaseData("select * from MyTable;", prmVals, "The query does not contain an IN clause.\r\nParameter name: query");
+            yield return new TestCaseData(IN_CLAUSE_QUERY, new List<object>(), "Data for the IN clause is required.\r\nParameter name: inClauseData");
+            yield return new TestCaseData(IN_CLAUSE_QUERY, null, "Data for the IN clause is required.\r\nParameter name: inClauseData");
         }
 
         /// <summary>

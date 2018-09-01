@@ -78,12 +78,12 @@ namespace StatKings.SqlServerAdoNet
         {
             if (commandType == CommandType.TableDirect)
             {
-                throw new ArgumentException($"{nameof(commandType)} TableDirect not supported.");
+                throw new ArgumentException("CommandType.TableDirect not supported.", nameof(commandType));
             }
 
             if (string.IsNullOrWhiteSpace(commandText))
             {
-                throw new ArgumentException($"{nameof(commandText)} is required.");
+                throw new ArgumentException($"Command text is required.", nameof(commandText));
             }
 
             _commandType = commandType;

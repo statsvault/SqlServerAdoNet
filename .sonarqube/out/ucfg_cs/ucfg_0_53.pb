@@ -1,7 +1,9 @@
 
-=StatKings.SqlServerAdoNet.UpdateProperties.UpdateProperties()P
-FC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\UpdateProperties.cs (O"0*
-0*
-1*
+9StatKings.SqlServerAdoNet.CommandSettings.CommandText.getO
+EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs@$ @(?"0*^
+0"Y
+O
+EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs@* @(=
+""*
 1"
 ""

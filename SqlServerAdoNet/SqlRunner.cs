@@ -198,7 +198,7 @@ namespace StatKings.SqlServerAdoNet
             // Make sure the incoming command settings is valid.
             if (commandSettings == null)
             {
-                throw new ArgumentNullException(nameof(commandSettings), $"{nameof(commandSettings)} is required.");
+                throw new ArgumentNullException(nameof(commandSettings));
             }
 
             // Create the command object.

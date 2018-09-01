@@ -1,20 +1,9 @@
 
-BStatKings.SqlServerAdoNet.ReflectionHelper.GetPropertyValues<T>(T)Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs` k(entity"0*
-0*
-1*
-1*
-2
-3*¹
-2®
+EStatKings.SqlServerAdoNet.ReflectionHelper.GetProperties(System.Type)Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csU X(type"0*`
+0"[
 Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csg g(E%0ESystem.Collections.Generic.Dictionary<TKey, TValue>.Add(TKey, TValue)"
-"""
-""*
-1*`
-3"[
-Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csj j(
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csW W(l
 ""*
-4"
+1"
 ""

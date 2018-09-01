@@ -36,7 +36,7 @@ namespace StatKngs.SqlServerAdoNet.UnitTests
         public void CommandSettings_InvalidCommandType_ArgumentExceptionThrown()
         {
             Action act = () => new CommandSettings(CommandType.TableDirect, QUERY);
-            act.Should().Throw<ArgumentException>().WithMessage("commandType TableDirect not supported.");
+            act.Should().Throw<ArgumentException>().WithMessage("CommandType.TableDirect not supported.\r\nParameter name: commandType");
         }
 
         /// <summary>
@@ -59,7 +59,7 @@ namespace StatKngs.SqlServerAdoNet.UnitTests
         public void CommandSettings_EmptyCommandText_ArgumentExceptionThrown(string commandText)
         {
             Action act = () => new CommandSettings(commandText);
-            act.Should().Throw<ArgumentException>().WithMessage("commandText is required.");
+            act.Should().Throw<ArgumentException>().WithMessage("Command text is required.\r\nParameter name: commandText");
         }
 
         /// <summary>

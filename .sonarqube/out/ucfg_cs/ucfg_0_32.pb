@@ -1,14 +1,7 @@
 
-6StatKings.SqlServerAdoNet.QueryHelper.ToDBNull(object)L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cso r(value"0*
-0*
-1
-2*
-1*
-2*[
-2"V
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csq q((
-""*
-3"
+>StatKings.SqlServerAdoNet.SqlRunner.Delete<T>(params object[])D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs’ —(primaryKeyValues"0*
+0*
+1*
+1"
 ""

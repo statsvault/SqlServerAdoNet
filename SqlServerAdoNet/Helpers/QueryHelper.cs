@@ -76,15 +76,15 @@ namespace StatKings.SqlServerAdoNet
         {
             if (string.IsNullOrWhiteSpace(query))
             {
-                throw new ArgumentException("A query is required.");
+                throw new ArgumentException("A query is required.", nameof(query));
             }
             if (query.IndexOf("in ({0})", StringComparison.OrdinalIgnoreCase) == -1)
             {
-                throw new ArgumentException("The query does not contain an IN clause.");
+                throw new ArgumentException("The query does not contain an IN clause.", nameof(query));
             }
             if (inClauseData == null || !inClauseData.Any())
             {
-                throw new ArgumentException("Data for the IN clause is required.");
+                throw new ArgumentException("Data for the IN clause is required.", nameof(inClauseData));
             }
 
             // Create the parameter names for the IN clause.

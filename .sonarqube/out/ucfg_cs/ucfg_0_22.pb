@@ -1,29 +1,19 @@
 
-\StatKings.SqlServerAdoNet.SqlRunner.ExecuteScalar(StatKings.SqlServerAdoNet.CommandSettings)B
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs: K(commandSettings"0*
-0*	
+[StatKings.SqlServerAdoNet.QueryBuilder<T>.QueryBuilder(StatKings.SqlServerAdoNet.QueryType)M
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs *(	queryType"0*
+0*
 1
-2
-3*Q
-2"L
-B
-8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csA A(
-""*
-4*	
-1
-5
-3*
-1*
-3*
-3*
-6
-7*
-6*
-7*
-5*
-8
-7*
-8*
-7*
-7"
+2*»
+1°
+M
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs$ $(f%0SStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException(string)"
+""*
+3*¹
+2®
+M
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs) )(I%0IStatKings.SqlServerAdoNet.QueryBuilder<T>.FormatTableName(string, string)"
+"""
+""*
+3*
+3"
 ""
