@@ -15,7 +15,7 @@ namespace StatKings.SqlServerAdoNet
     {
         private readonly QueryType _queryType;
         private readonly string _tableName;
-        private readonly List<Column> _entityColumns = new List<Column>();
+        private readonly List<Column> _entityColumns;
         private Dictionary<string, object> _entityPropertyValues = new Dictionary<string, object>();
         private Dictionary<string, object> _primaryKeyValues = new Dictionary<string, object>();
         private WhereProperties _whereProperties;
@@ -31,7 +31,7 @@ namespace StatKings.SqlServerAdoNet
             // Get the column definitions from the entity.
             _entityColumns = ModelHelper.GetTableColumns<T>().ToList();
             
-            if (_entityColumns.Count == 0)
+            if (!_entityColumns.Any())
             {
                 throw new ModelDefinitionException("The model does not contain any public properties.");
             }
@@ -54,9 +54,9 @@ namespace StatKings.SqlServerAdoNet
             }
 
             // Make sure we have at least one value.
-            if (primaryKeyValues.Length == 0)
+            if (!primaryKeyValues.Any())
             {
-                throw new ArgumentException("At least one primary key value is required.");
+                throw new ArgumentException("At least one primary key value is required.", nameof(primaryKeyValues));
             }
 
             // Get the model's primary key fields.
@@ -69,7 +69,7 @@ namespace StatKings.SqlServerAdoNet
             }
             if (primaryKeyColumns.Count != primaryKeyValues.Length)
             {
-                throw new ArgumentException("The number of primary key values supplied does not match the number of primary keys in the model.");
+                throw new ArgumentException("The number of primary key values supplied does not match the number of primary keys in the model.", nameof(primaryKeyValues));
             }
 
             // Build the collection of primary key/value pairs.
@@ -98,7 +98,7 @@ namespace StatKings.SqlServerAdoNet
             // Make sure an entity was passed in since we'll be using its property values.
             if (entityInstance == null)
             {
-                throw new ArgumentNullException("A non-null entity instance is required.");
+                throw new ArgumentNullException("A non-null entity instance is required.", nameof(entityInstance));
             }
 
             // Get the properties and their values from the entity instance.
@@ -149,7 +149,7 @@ namespace StatKings.SqlServerAdoNet
             }
 
             return new CommandSettings(string.Format("select {0} from {1} where {2};",
-                colNames, _tableName, _whereProperties.Condition), _whereProperties.Parameters);
+                colNames, _tableName, _whereProperties.ConditionClause), _whereProperties.Parameters);
         }
 
         /// <summary>
@@ -164,7 +164,7 @@ namespace StatKings.SqlServerAdoNet
                 throw new SqlBuilderException("Delete requires primary key columns and their values.");
             }
             return new CommandSettings(string.Format("delete from {0} where {1};",
-                _tableName, _whereProperties.Condition), _whereProperties.Parameters);
+                _tableName, _whereProperties.ConditionClause), _whereProperties.Parameters);
         }
 
         /// <summary>
@@ -186,7 +186,7 @@ namespace StatKings.SqlServerAdoNet
             prms.AddRange(_whereProperties.Parameters);
 
             return new CommandSettings(string.Format("update {0} set {1} where {2};",
-                _tableName, props.Columns, _whereProperties.Condition), prms);
+                _tableName, props.SetClause, _whereProperties.ConditionClause), prms);
         }
 
         /// <summary>
@@ -205,11 +205,11 @@ namespace StatKings.SqlServerAdoNet
             if (identityColumn != null)
             {
                 return new CommandSettings(string.Format("insert into {0} ({1}) output inserted.{2} values ({3});",
-                    _tableName, props.Columns, AddBrackets(identityColumn.Name), props.Values), props.Parameters);
+                    _tableName, props.ColumnsClause, AddBrackets(identityColumn.Name), props.ValuesClause), props.Parameters);
             }
 
             return new CommandSettings(string.Format("insert into {0} ({1}) values ({2});",
-                _tableName, props.Columns, props.Values), props.Parameters);
+                _tableName, props.ColumnsClause, props.ValuesClause), props.Parameters);
         }
 
         /// <summary>
@@ -219,6 +219,7 @@ namespace StatKings.SqlServerAdoNet
         private UpdateProperties MakeUpdateProperties()
         {
             var props = new UpdateProperties();
+            var setClause = new StringBuilder();
 
             foreach (var col in _entityColumns)
             {
@@ -229,13 +230,13 @@ namespace StatKings.SqlServerAdoNet
                 }
 
                 var prmName = QueryHelper.MakeParameterName(col.Name);
-                props.Columns += string.Format("{0} = {1}, ", AddBrackets(col.Name), prmName);
+                setClause.Append(string.Format($"{AddBrackets(col.Name)} = {prmName}, "));
                 props.Parameters.Add(MakeSqlParameter(prmName, _entityPropertyValues[col.Id].ToDBNull(), col.SqlDbType));
             }
-            props.Columns = props.Columns.RemoveFromEnd(", ");
+            props.SetClause = setClause.ToString().RemoveFromEnd(", ");
 
             // Are there columns to update.
-            if (string.IsNullOrEmpty(props.Columns))
+            if (string.IsNullOrEmpty(props.SetClause))
             {
                 throw new SqlBuilderException("The model does not contain any updateable columns.");
             }
@@ -249,6 +250,8 @@ namespace StatKings.SqlServerAdoNet
         private InsertProperties MakeInsertProperties()
         {
             var props = new InsertProperties();
+            var columnsClause = new StringBuilder();
+            var valuesClause = new StringBuilder();
 
             foreach (var col in _entityColumns)
             {
@@ -259,15 +262,15 @@ namespace StatKings.SqlServerAdoNet
                 }
 
                 var prmName = QueryHelper.MakeParameterName(col.Name);
-                props.Columns += AddCommaDelimiter(AddBrackets(col.Name));
-                props.Values += AddCommaDelimiter(prmName);
+                columnsClause.Append(AddCommaDelimiter(AddBrackets(col.Name)));
+                valuesClause.Append(AddCommaDelimiter(prmName));
                 props.Parameters.Add(MakeSqlParameter(prmName, _entityPropertyValues[col.Id].ToDBNull(), col.SqlDbType));
             }
-            props.Columns = props.Columns.RemoveFromEnd(", ");
-            props.Values = props.Values.RemoveFromEnd(", ");
+            props.ColumnsClause = columnsClause.ToString().RemoveFromEnd(", ");
+            props.ValuesClause = valuesClause.ToString().RemoveFromEnd(", ");
 
             // Are there columns to insert.
-            if (string.IsNullOrEmpty(props.Columns))
+            if (string.IsNullOrEmpty(props.ColumnsClause))
             {
                 throw new SqlBuilderException("The model does not contain any insertable columns.");
             }
@@ -280,16 +283,18 @@ namespace StatKings.SqlServerAdoNet
         private void MakeWhereProperties()
         {
             _whereProperties = new WhereProperties();
+            var conditionClause = new StringBuilder();
+
             foreach (var primaryKey in _primaryKeyValues)
             {
                 var col = _entityColumns.First(x => x.Id == primaryKey.Key);
 
                 var prmName = QueryHelper.MakeParameterName(col.Name);
-                _whereProperties.Condition += string.Format("{0} = {1} and ", AddBrackets(col.Name), prmName);
+                conditionClause.Append($"{AddBrackets(col.Name)} = {prmName} and ");
                                 
                 _whereProperties.Parameters.Add(MakeSqlParameter(prmName, primaryKey.Value.ToDBNull(), col.SqlDbType));
             }
-            _whereProperties.Condition = _whereProperties.Condition.RemoveFromEnd(" and ");
+            _whereProperties.ConditionClause = conditionClause.ToString().RemoveFromEnd(" and ");
         }
 
         /// <summary>
@@ -299,7 +304,7 @@ namespace StatKings.SqlServerAdoNet
         /// <returns>string</returns>
         private string AddBrackets(string val)
         {
-            return "[" + val + "]";
+            return $"[{val}]";
         }
 
         /// <summary>
@@ -309,7 +314,7 @@ namespace StatKings.SqlServerAdoNet
         /// <returns>string</returns>
         private string AddCommaDelimiter(string val)
         {
-            return val += ", ";
+            return $"{val}, ";
         }
 
         /// <summary>
@@ -326,7 +331,7 @@ namespace StatKings.SqlServerAdoNet
             }
             else
             {
-                return AddBrackets(schema) + "." + AddBrackets(name);
+                return $"{AddBrackets(schema)}.{AddBrackets(name)}";
             }
         }
 

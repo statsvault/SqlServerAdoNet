@@ -17,7 +17,7 @@ namespace StatKings.SqlServerAdoNet
         /// <summary>
         /// Gets/sets the set clause for the update statement.
         /// </summary>
-        public string Columns { get; set; }
+        public string SetClause { get; set; }
 
         /// <summary>
         /// Gets/sets the parameters for the set clause.

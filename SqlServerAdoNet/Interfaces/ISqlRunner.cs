@@ -5,11 +5,11 @@ namespace StatKings.SqlServerAdoNet
 {
     public interface ISqlRunner
     {
-        T Get<T>(params object[] keyValues);
+        T Get<T>(params object[] primaryKeyValues);
 
         IEnumerable<T> GetAll<T>();
 
-        void Delete<T>(params object[] keyValues);
+        void Delete<T>(params object[] primaryKeyValues);
 
         int InsertForId<T>(T entity);
 

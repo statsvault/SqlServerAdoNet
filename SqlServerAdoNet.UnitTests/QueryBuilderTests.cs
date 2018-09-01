@@ -505,8 +505,8 @@ namespace StatKings.SqlServerAdoNet.UnitTests
 
             public const string ERR_NO_PUB_PROPS = "The model does not contain any public properties.";
             public const string ERR_NO_KEYS = "The model does not contain any primary keys.";
-            public const string ERR_KEY_REQ = "At least one primary key value is required.";
-            public const string ERR_KEY_MISMATCH = "The number of primary key values supplied does not match the number of primary keys in the model.";
+            public const string ERR_KEY_REQ = "At least one primary key value is required.\r\nParameter name: primaryKeyValues";
+            public const string ERR_KEY_MISMATCH = "The number of primary key values supplied does not match the number of primary keys in the model.\r\nParameter name: primaryKeyValues";
             public const string ERR_SET_PRIMARY_KEY = "SetPrimaryKeyValues is not valid for Insert and Update.  Use SetEntityInstance instead.";
             public const string ERR_SET_INSTANCE = "SetEntityInstance is not valid for Select.  Use SetPrimaryKeyValues instead.";
             public const string ERR_UPD_KEY = "Update requires primary key columns and their values.";

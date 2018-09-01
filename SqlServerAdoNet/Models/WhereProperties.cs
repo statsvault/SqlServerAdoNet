@@ -17,7 +17,7 @@ namespace StatKings.SqlServerAdoNet
         /// <summary>
         /// Gets/sets the where clause condition.
         /// </summary>
-        public string Condition { get; set; }
+        public string ConditionClause { get; set; }
 
         /// <summary>
         /// Gets/sets the paramters for the where clause condition.

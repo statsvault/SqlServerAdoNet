@@ -16,12 +16,12 @@ namespace StatKings.SqlServerAdoNet
         /// <summary>
         /// Gets/sets the column clause for the insert statement.
         /// </summary>
-        public string Columns { get; set; }
+        public string ColumnsClause { get; set; }
 
         /// <summary>
         /// Gets/sets the values clause for the insert statement.
         /// </summary>
-        public string Values { get; set; }
+        public string ValuesClause { get; set; }
 
         /// <summary>
         /// Gets/sets the parameters for the values clause.
