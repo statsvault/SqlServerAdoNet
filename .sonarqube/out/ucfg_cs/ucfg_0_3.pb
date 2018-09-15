@@ -1,5 +1,5 @@
 
-ªStatKings.SqlServerAdoNet.CommandSettingsException.CommandSettingsException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)\
-RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException.cs ($infocontext"0*
+SStatKings.SqlServerAdoNet.CommandSettingsException.CommandSettingsException(string)\
+RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\CommandSettingsException.cs (Jmessage"0*
 0"
 ""

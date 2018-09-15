@@ -1,34 +1,23 @@
 
->StatKings.SqlServerAdoNet.QueryBuilder<T>.SetEntityInstance(T)M
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csZ v(entityInstance"0*
+„StatKings.SqlServerAdoNet.ModelHelper.SetIsPrimaryKey(System.Type, System.Reflection.PropertyInfo, StatKings.SqlServerAdoNet.Column)L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csn ~(typeproptableColumn"0*
 0*
 1
-2*«
-1 
-N
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs_ _(‚%0BSystem.InvalidOperationException.InvalidOperationException(string)"
+2*
+1*
+3
+4*
+3*
+4*
+4*
+5
+6*º
+5¯
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csx x(^%0SStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException(string)"
 ""*
-3*
-2*
-4
-5*¢
-4—
-M
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cse e(F%0:System.ArgumentNullException.ArgumentNullException(string)"
-""*
-3*
-5*
-6*
-6*
-7
-8*µ
-7ª
-M
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csq q(Q%0ESystem.Collections.Generic.Dictionary<TKey, TValue>.Add(TKey, TValue)"
-"""
-""*
-6*
-8*
-3*
-3"
+2*
+6*
+2*
+2"
 ""

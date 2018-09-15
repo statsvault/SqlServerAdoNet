@@ -1,19 +1,33 @@
 
-bStatKings.SqlServerAdoNet.QueryBuilder<T>.MakeSqlParameter(string, object, System.Data.SqlDbType?)O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÙ Þ(namevalue	sqlDbType"0*¶
-0¨
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÛ Û(4%0?System.Data.SqlClient.SqlParameter.SqlParameter(string, object)"
-
-name"
+FStatKings.SqlServerAdoNet.ReflectionHelper.GetPropertyColumnNames<T>()S
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs‹ —("0*
+0*
+1*
+1*
+2
+3*‹
+2ý
+S
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs’ ’(R%0‘StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(System.Reflection.PropertyInfo, System.Func<TAttribute, TValue>)"
+"""
 ""*
-1
-2*
-1*
-2*^
-2"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÝ Ý(
+4
+5*
+4*
+5*®
+5l
+S
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs’ ’(_colName__id"
+""µ
+S
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs“ “(/%0ESystem.Collections.Generic.Dictionary<TKey, TValue>.Add(TKey, TValue)"
+"""
+	
+colName*
+1*b
+3"]
+S
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs– –(
 ""*
-3"
+6"
 ""

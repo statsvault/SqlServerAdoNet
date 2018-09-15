@@ -1,35 +1,9 @@
 
-:StatKings.SqlServerAdoNet.ModelHelper.GetTableColumns<T>()L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs( N("0*
-0*
-1*
-1*
-2
-3*Ž
-2ƒ
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs3/ 3(<%0'StatKings.SqlServerAdoNet.Column.Id.set"
-""*
-1*
-3*
-4
-5*º
-4¯
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csD D(b%0SStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException(string)"
-""*
-6*
-5*
-7
-8*º
-7¯
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csJ J(q%0SStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException(string)"
-""*
-6*[
-8"V
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csM M(
+5StatKings.SqlServerAdoNet.SqlRunner.InsertForId<T>(T)D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csŸ ¥(entity"0*S
+0"N
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.cs¤ ¤(*
 ""*
-6"
+1"
 ""

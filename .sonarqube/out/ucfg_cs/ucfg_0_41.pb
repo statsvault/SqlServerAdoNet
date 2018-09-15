@@ -1,33 +1,32 @@
 
-àStatKings.SqlServerAdoNet.ModelHelper.SetColumnAttributes(System.Type, System.Reflection.PropertyInfo, StatKings.SqlServerAdoNet.Column)N
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csÖ ò(typeproptableColumn"0*ï
-0á
-N
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csá á('%0)StatKings.SqlServerAdoNet.Column.Name.set"
-""*
+?StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeCommandSettings()N
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs| Ü("0*
+0*
 1
-2*å
-1
-N
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csç ç(;%0!string.IsNullOrWhiteSpace(string)"
-""*
+2
 3
-4*í
-3á
-N
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csè è(2%0)StatKings.SqlServerAdoNet.Column.Name.set"
+4
+5*^
+4"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÉ' É(B
+""*^
+3"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÇ' Ç(B
+""*^
+2"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÅ' Å(B
+""*^
+1"Y
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÄ' Ä(B
+""*≥
+5®
+O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÖ Ö(H%0IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)"
 ""*
-4*å
-4
-N
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csì ì(?%0!string.IsNullOrWhiteSpace(string)"
-""*
-5
-2*†
-5ï
-N
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csï, ï(F%07StatKings.SqlServerAdoNet.ModelHelper.GetDbType(string)"
-""*
-2*
-2"
+6*
+6"
 ""

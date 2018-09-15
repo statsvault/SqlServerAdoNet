@@ -1,32 +1,10 @@
 
-?StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeCommandSettings()N
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs| Ü("0*
-0*
+ÅStatKings.SqlServerAdoNet.ModelHelper.SetDatabaseGeneratedFlags(System.Reflection.PropertyInfo, StatKings.SqlServerAdoNet.Column)N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csÖ î(proptableColumn"0*
+0*
 1
-2
-3
-4
-5*^
-4"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÉ' É(B
-""*^
-3"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÇ' Ç(B
-""*^
-2"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÅ' Å(B
-""*^
-1"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÄ' Ä(B
-""*≥
-5®
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÖ Ö(H%0IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)"
-""*
-6*
-6"
+2*
+1*
+2*
+2"
 ""

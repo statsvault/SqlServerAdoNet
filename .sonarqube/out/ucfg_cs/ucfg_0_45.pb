@@ -1,27 +1,16 @@
 
->StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeDeleteSettings()O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csü ®("0*
-0*
-1
-2*≥
-1®
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs§ §(e%0IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)"
-""*
-3*Á
-2î
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs¶' ß(<%0%string.Format(string, object, object)"
-"""
-"""
-""Ô
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs¶ ß(Z%1áStatKings.SqlServerAdoNet.CommandSettings.CommandSettings(string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
-
-%0"
-"""Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs¶ ß([
+IStatKings.SqlServerAdoNet.SqlRunner.MapToList<T>(System.Data.IDataReader)D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csè ò(reader"0*
+0*
+1*
+1*
+2
+3*
+2*
+1*S
+3"N
+D
+8C:\Projects\SqlServerAdoNet\SqlServerAdoNet\SqlRunner.csó ó(
 ""*
-3"
+4"
 ""

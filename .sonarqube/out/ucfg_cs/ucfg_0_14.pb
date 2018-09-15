@@ -1,9 +1,5 @@
 
-4StatKings.SqlServerAdoNet.UnitOfWork.CreateCommand()C
-9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.cs6 ;("0*R
-0"M
-C
-9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.cs: :(
-""*
-1"
+ªStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)\
+RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException.cs ($infocontext"0*
+0"
 ""

@@ -1,5 +1,8 @@
 
- StatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)W
-MC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\SqlBuilderException.cs ($infocontext"0*
-0"
+JStatKings.SqlServerAdoNet.UnitOfWork.UnitOfWork(System.Data.IDbConnection)C
+9C:\Projects\SqlServerAdoNet\SqlServerAdoNet\UnitOfWork.cs- 0(
+connection"0*
+0*
+1*
+1"
 ""

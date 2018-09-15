@@ -1,16 +1,19 @@
 
-}StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(TAttribute, System.Func<TAttribute, TValue>)Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs@ G(attrvalueSelector"0*
+‘StatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(System.Reflection.PropertyInfo, System.Func<TAttribute, TValue>)Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs+ 6(propvalueSelector"0*
 0*
 1
 2*`
-1"[
-Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csD D(*
-""*`
 2"[
 Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csF F("
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs0 0(=
+""*
+3*
+1
+4*`
+1"[
+Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs4 4(&
 ""*
-3"
+4"
 ""

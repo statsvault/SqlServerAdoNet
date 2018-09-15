@@ -1207,7 +1207,7 @@ namespace StatKings.SqlServerAdoNet.IntegrationTests
                 uow.BeginTransaction();
 
                 var runner = new SqlRunner(uow);
-                runner.Delete<Genre>(albumId);
+                runner.Delete<Album>(albumId);
 
                 if (explicitRollback)
                 {

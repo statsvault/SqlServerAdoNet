@@ -1,5 +1,5 @@
 
-CStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException()W
-MC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\SqlBuilderException.cs	 	(0"0*
+MStatKings.SqlServerAdoNet.ModelDefinitionException.ModelDefinitionException()\
+RC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\ModelDefinitionException.cs	 	(5"0*
 0"
 ""

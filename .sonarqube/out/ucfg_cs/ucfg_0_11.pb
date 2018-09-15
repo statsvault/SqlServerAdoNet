@@ -1,5 +1,5 @@
 
-IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)W
-MC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\SqlBuilderException.cs (Emessage"0*
+[StatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string, System.Exception)W
+MC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Exceptions\SqlBuilderException.cs (.messageinnerException"0*
 0"
 ""
