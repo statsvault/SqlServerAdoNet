@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServerAdoNet", "SqlServerAdoNet\SqlServerAdoNet.csproj", "{8309C009-301E-4D5A-A3B3-D3C4BFFB2B92}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServerAdoNet.UnitTests", "SqlServerAdoNet.UnitTests\SqlServerAdoNet.UnitTests.csproj", "{6CF6E817-6A3E-4BA2-8701-CE6CC8AF2E4F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServerAdoNet.IntegrationTests", "SqlServerAdoNet.IntegrationTests\SqlServerAdoNet.IntegrationTests.csproj", "{675C15ED-6DC9-4D35-ABEE-D600756B5BDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD07B5E4-99AF-4B15-A347-3F968649BBDE}"
+	ProjectSection(SolutionItems) = preProject
+		sonar_scan.bat = sonar_scan.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +35,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71AF0295-CCDD-444B-BF32-E04888609089}
 	EndGlobalSection
 EndGlobal
