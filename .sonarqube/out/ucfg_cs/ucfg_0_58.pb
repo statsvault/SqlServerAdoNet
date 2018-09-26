@@ -1,76 +1,110 @@
 
-@StatKings.SqlServerAdoNet.QueryBuilder<T>.MakeUpdateProperties()O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs€ Ù("0*
-0*
-1*
-1*
-2
-3*
-2*
-4
-5*
-5*
-4*
-4*
-6
-7*
-7*
-6*
-6*
-8
-9*
-8*
-1*ù
-9û
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csË Ë(D%0?StatKings.SqlServerAdoNet.QueryHelper.MakeParameterName(string)"
-""h
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csË Ë(DprmName__id"
+ÅStatKings.SqlServerAdoNet.ModelHelper.SetDatabaseGeneratedFlags(System.Reflection.PropertyInfo, StatKings.SqlServerAdoNet.Column)N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csÖ î(	proptableColumn"0*õ
+0£
+†
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csá á(*
+%0"/StatKings.SqlServerAdoNet.Column.IsIdentity.set*
+
+tableColumn*
+""£
+†
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csà à(*
+%1"/StatKings.SqlServerAdoNet.Column.IsComputed.set*
+
+tableColumn*
+""Ø
+¨
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csä ä(W
+%2"ëStatKings.SqlServerAdoNet.ReflectionHelper.GetAttributeValue<TAttribute, TValue>(System.Reflection.PropertyInfo, System.Func<TAttribute, TValue>)*.",
+*StatKings.SqlServerAdoNet.ReflectionHelper*
+
+prop*
+""m
+k
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csä ä(W
+	dbGenAttr"__id*
 
-%0ú
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÈ2 È(F%1=StatKings.SqlServerAdoNet.QueryBuilder<T>.AddBrackets(string)"
-""Ö
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÈ! È(W%2&string.Format(string, params object[])"
-""á
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÈ È(X%3(System.Text.StringBuilder.Append(string)"
+%2†
+ù
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csã ã(!
+%3""object.operator !=(object, object)*
+"
+object*
+
+	dbGenAttr*
+""*
+1
+2*Ω
+1Õ
+ 
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csé é(@
+%4"cSystem.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute.DatabaseGeneratedOption.get*
+
+	dbGenAttrl
+j
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csé é(@
+
+dbGenOpt"__id*
 
-%2÷
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÍ% Í(v%4bStatKings.SqlServerAdoNet.QueryBuilder<T>.MakeSqlParameter(string, object, System.Data.SqlDbType?)"
-	
-prmName"
-"""
-""*
-1*œ
-3{
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ï(1%0$System.Text.StringBuilder.ToString()´
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ï(E%1DStatKings.SqlServerAdoNet.CommonHelper.RemoveFromEnd(string, string)"
+%4∑
+¥
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csë5 ë(U
+%5"__id*V*TF
+DSystem.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption"
+
+Identityò
+ï
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csë) ë(U
+%6"‹System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.operator ==(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption, System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption)*H"F
+DSystem.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption*
+
+
+dbGenOpt*
 
-%0"
-""ó
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÏ Ï(E%28StatKings.SqlServerAdoNet.UpdateProperties.SetClause.set"
+%5£
+†
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csë ë(U
+%7"/StatKings.SqlServerAdoNet.Column.IsIdentity.set*
+
+tableColumn*
 
-%1{
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÔ Ô(4%3string.IsNullOrEmpty(string)"
-""*
-10
-11*µ
-10®
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÒ Ò(b%0IStatKings.SqlServerAdoNet.SqlBuilderException.SqlBuilderException(string)"
-""*
-12*_
-11"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÛ Û(
-""*
-12"
+%6∑
+¥
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csí5 í(U
+%8"__id*V*TF
+DSystem.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption"
+
+Computedò
+ï
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csí) í(U
+%9"‹System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.operator ==(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption, System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption)*H"F
+DSystem.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption*
+
+
+dbGenOpt*
+
+%8§
+°
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csí í(U
+%10"/StatKings.SqlServerAdoNet.Column.IsComputed.set*
+
+tableColumn*
+
+%9*
+2*
+2"
 ""

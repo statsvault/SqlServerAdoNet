@@ -1,84 +1,229 @@
 
-uStatKings.SqlServerAdoNet.QueryHelper.ParameterizeInClauseQuery<T>(string, System.Collections.Generic.IEnumerable<T>)L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csK h(queryinClauseData"0*é
-0Ä
+ÖStatKings.SqlServerAdoNet.QueryHelper.MakeTableValuedParameter<T>(string, System.Collections.Generic.IEnumerable<T>, params string[])L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs B(		paramNamedatacolumnNames"0*õ
+0à
+Ö
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csM M(/%0!string.IsNullOrWhiteSpace(string)"	
-
-query*
-1
-2*©
-1û
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs2 (F
+%0"__id*)*'
+System.Data.SqlDbType"
+
+Structuredzx
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csO O(Q%0:System.ArgumentException.ArgumentException(string, string)"
-"""
-""*
-3*¨
-2û
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs (G
+%1""System.Data.SqlClient.SqlParameter∆
+√
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csQ Q(L%0/string.IndexOf(string, System.StringComparison)"	
-
-query"
-"""
-""*
-4
-5*©
-4û
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs (&
+%2"NSystem.Data.SqlClient.SqlParameter.SqlParameter(string, System.Data.SqlDbType)*
+
+%1*
+
+	paramName*
+
+%0e
+c
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csS S(e%0:System.ArgumentException.ArgumentException(string, string)"
-"""
-""*
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs (G
+prm"__id*
+
+%1mk
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs (.
+%3"System.Data.DataTableÅ
+
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs# (,
+%4"!System.Data.DataTable.DataTable()*
+
+%3g
+e
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs (.
+table"__id*
+
+%3*
+1*
+1*
+2
 3*
-5*
-6
+3*
+2
+4*é
+2Ä
+~
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs"# "(5
+%5"System.Array.Length.get*
+
+columnNames*
+5
+6*}
+5s
+q
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs"= "(K
+%6"
+__arrayGet*
+
+columnNames*
 7*
-7*
-6*
-6*
-8
-9*©
-8û
+6*
+7*•
+7i
+g
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csW W(g%0:System.ArgumentException.ArgumentException(string, string)"
-"""
-""*
-3*É
-9à
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs" "(U	
+colName"__id*
+""nl
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs^0 ^(K%0$string.Join(string, params string[])"
-"""
-""Ñ
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs# #(4
+%7"System.Data.DataColumnó
+î
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs^ ^(L%1string.Format(string, object)"	
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs#! #(+
+%8")System.Data.DataColumn.DataColumn(string)*
+
+%7*
+	
+colNamed
+b
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs# #(4
+dc"__id*
+
+%7å
+â
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs$ $(+
+%9"#System.Data.DataColumn.DataType.set*
+
+dc*
+""Ü
+É
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs% %(!
+%10"!System.Data.DataTable.Columns.get*	
 
-query"
-
-%0f
+tableß
+§
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs^ ^(LoutQuery__id"
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs% %()
+%11"<System.Data.DataColumnCollection.Add(System.Data.DataColumn)*
+
+%10*
 
-%1*
-10*
-10*
+dc*
+8*
+8*
+9
+10*≠
+9É
+Ä
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs)! )(/
+%12"System.Data.DataTable.NewRow()*	
+
+tablee
+c
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs) )(/
+dr"__id*
+
+%12ã
+à
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs* *($
+%13"!System.Data.DataRow.this[int].set*
+
+dr*
+""É
+Ä
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs+ +("
+%14"System.Data.DataTable.Rows.get*	
+
+table°
+û
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs+ +(*
+%15"6System.Data.DataRowCollection.Add(System.Data.DataRow)*
+
+%14*
+
+dr*
+8*ë
+4Å
+
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs3 3(*
+%16"System.Array.Length.get*
+
+columnNames*
 11
-12*∞
-11£
+12*°
+11 
+«
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csd d(]%0?System.Data.SqlClient.SqlParameter.SqlParameter(string, object)"
-"""
-""*
-13*
-
-13*
-10*˜
-12ò
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs5& 5(L
+%17"@StatKings.SqlServerAdoNet.ReflectionHelper.GetPropertyNames<T>()*.",
+*StatKings.SqlServerAdoNet.ReflectionHelper◊
+‘
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csg. g(=%06StatKings.SqlServerAdoNet.InClauseProperties.Query.set"
-
-
-outQuery"V
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs5& 5(V
+%18"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*
+
+%17n
+l
 L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csg g(S
-""*
-3"
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs5 5(V
+columnNames"__id*
+
+%18*
+12*Á
+12Ô
+Ï
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs8( 8(N
+%19"]FastMember.ObjectReader.Create<T>(System.Collections.Generic.IEnumerable<T>, params string[])*"
+FastMember.ObjectReader*
+
+data*
+
+columnNamesi
+g
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs8 8(N
+reader"__id*
+
+%19*
+13*±
+13§
+°
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs: :(*
+%20"3System.Data.DataTable.Load(System.Data.IDataReader)*	
+
+table*
+
+
+reader*
+10*ß
+10ö
+ó
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cs> >(!
+%21",System.Data.SqlClient.SqlParameter.Value.set*
+
+prm*	
+
+table*
+14*]
+14"W
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csA A(
+
+prm*
+15"
 ""

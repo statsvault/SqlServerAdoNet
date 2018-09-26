@@ -1,7 +1,7 @@
 organization=statsvault-github
 projectKey=statsvault_SqlServerAdoNet
 serverUrl=https://sonarcloud.io
-serverVersion=7.4.0.16105
+serverVersion=7.4.0.17063
 dashboardUrl=https://sonarcloud.io/dashboard?id=statsvault_SqlServerAdoNet
-ceTaskId=AWWVcwP9ljHIaY3G_r8U
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWWVcwP9ljHIaY3G_r8U
+ceTaskId=AWYTtQdwCtES-6LJIMrz
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWYTtQdwCtES-6LJIMrz

@@ -5,7 +5,7 @@
   <ProjectType>Test</ProjectType>
   <ProjectGuid>675c15ed-6dc9-4d35-abee-d600756b5bdc</ProjectGuid>
   <FullPath>C:\Projects\SqlServerAdoNet\SqlServerAdoNet.IntegrationTests\SqlServerAdoNet.IntegrationTests.csproj</FullPath>
-  <IsExcluded>false</IsExcluded>
+  <IsExcluded>true</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="C:\Projects\SqlServerAdoNet\.sonarqube\out\2\FilesToAnalyze.txt" />
   </AnalysisResults>

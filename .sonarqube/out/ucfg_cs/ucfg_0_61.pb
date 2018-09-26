@@ -1,14 +1,56 @@
 
- StatKings.SqlServerAdoNet.CommandSettings.CommandSettings(System.Data.CommandType, string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)O
-EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs3 6(commandTypecommandText
-parameters"0*¢
-0—
-O
-EC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Models\CommandSettings.cs5 5(>%0žStatKings.SqlServerAdoNet.CommandSettings.SetProperties(System.Data.CommandType, string, System.Collections.Generic.IEnumerable<System.Data.IDbDataParameter>)"
-"""
+7StatKings.SqlServerAdoNet.ModelHelper.GetDbType(string)N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs› ª(	typeName"0*¨
+0š
+—
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csž ž(1
+%0"int.TryParse(string, out int)*"
+int*
 
-commandText"
-""*
-1*
-1"
+
+typeName*	
+
+value*
+1
+2*·
+1©
+¦
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.csŸ Ÿ(9
+%1"*System.Enum.IsDefined(System.Type, object)*"
+System.Enum*
+""*	
+
+value*
+3
+2*]
+3"X
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs¡ ¡(
+""*Ñ
+2Ã
+À
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs¥ ¥(E
+%2"4System.Enum.TryParse<TEnum>(string, bool, out TEnum)*"
+System.Enum*
+
+
+typeName*
+""*
+	
+sqlType*
+4
+5*b
+4"]
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs§ §(
+	
+sqlType*]
+5"X
+N
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ModelHelper.cs© ©(
+""*
+6"
 ""

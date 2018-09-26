@@ -1,14 +1,16 @@
 
-6StatKings.SqlServerAdoNet.QueryHelper.ToDBNull(object)L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cso r(value"0*
-0*
-1
-2*
-1*
-2*[
-2"V
-L
-BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csq q((
-""*
-3"
+=StatKings.SqlServerAdoNet.ReflectionHelper.GetProperties<T>()Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csY \(	"0*¾
+0Û
+Ø
+Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs[ [(+
+%0"EStatKings.SqlServerAdoNet.ReflectionHelper.GetProperties(System.Type)*.",
+*StatKings.SqlServerAdoNet.ReflectionHelper*
+"""[
+Q
+GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.cs[ [(,
+
+%0*
+1"
 ""

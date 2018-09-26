@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RuleSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Rules for SonarQube" Description="This rule set was automatically generated from SonarQube" ToolsVersion="14.0">
   <Rules AnalyzerId="SonarAnalyzer.VisualBasic" RuleNamespace="SonarAnalyzer.VisualBasic">
+    <Rule Id="S1764" Action="Warning" />
     <Rule Id="S1751" Action="Warning" />
     <Rule Id="S1871" Action="Warning" />
     <Rule Id="S1656" Action="Warning" />
     <Rule Id="S1862" Action="Warning" />
-    <Rule Id="S1764" Action="Warning" />
     <Rule Id="S2178" Action="Warning" />
     <Rule Id="S101" Action="Warning" />
     <Rule Id="S1075" Action="Warning" />

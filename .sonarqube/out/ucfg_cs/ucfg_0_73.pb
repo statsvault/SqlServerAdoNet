@@ -1,15 +1,20 @@
 
-AStatKings.SqlServerAdoNet.ReflectionHelper.GetProperty<T>(string)Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csO R(propName"0*‘
-0®
-Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csQ Q(x%0?System.Type.GetProperty(string, System.Reflection.BindingFlags)"
-
-
-propName"
-"""[
-Q
-GC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\ReflectionHelper.csQ Q(y
-""*
-1"
+6StatKings.SqlServerAdoNet.QueryHelper.ToDBNull(object)L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.cso r(	value"0*
+0*
+1
+2*„
+1z
+x
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csq q((
+%0"__id**
+System.DBNull"
+Value*
+2*b
+2"]
+L
+BC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryHelper.csq q()
+	{unknown}*
+3"
 ""

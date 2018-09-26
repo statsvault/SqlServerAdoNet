@@ -1,19 +1,9 @@
 
-bStatKings.SqlServerAdoNet.QueryBuilder<T>.MakeSqlParameter(string, object, System.Data.SqlDbType?)O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÙ Þ(namevalue	sqlDbType"0*¶
-0¨
+CStatKings.SqlServerAdoNet.QueryBuilder<T>.AddCommaDelimiter(string)O
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs» ¾(	val"0*^
+0"Y
 O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÛ Û(4%0?System.Data.SqlClient.SqlParameter.SqlParameter(string, object)"
-
-name"
-""*
-1
-2*
-1*
-2*^
-2"Y
-O
-CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.csÝ Ý(
+CC:\Projects\SqlServerAdoNet\SqlServerAdoNet\Helpers\QueryBuilder.cs½ ½(
 ""*
-3"
+1"
 ""

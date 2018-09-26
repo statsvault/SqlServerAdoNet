@@ -12,6 +12,9 @@
   </Settings>
   <Rules>
     <Rule>
+      <Key>S1764</Key>
+    </Rule>
+    <Rule>
       <Key>S1751</Key>
     </Rule>
     <Rule>
@@ -22,9 +25,6 @@
     </Rule>
     <Rule>
       <Key>S1862</Key>
-    </Rule>
-    <Rule>
-      <Key>S1764</Key>
     </Rule>
     <Rule>
       <Key>S2178</Key>
