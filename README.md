@@ -10,9 +10,9 @@ https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+MSB
 Environment Variables
 
 User Variables - Path
-C:\Projects\sonar-scanner-msbuild-4.3.1.1372-net46
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin
+- C:\Projects\sonar-scanner-msbuild-4.3.1.1372-net46
+- C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin
 
 System Variables - Path
-C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+- C:\Program Files (x86)\Common Files\Oracle\Java\javapath
 
